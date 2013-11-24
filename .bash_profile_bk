@@ -1,0 +1,27 @@
+echo "loading .bash_profile...."
+
+export PATH="$HOME/ruby/gems/bin:$HOME/.gem/ruby/1.9.3/bin:$HOME/perl5/bin$HOME/opt/bin:$HOME/opt/sbin:$HOME/bin:$HOME/sbin:$PATH"
+
+export MANPATH="$HOME/opt/share/man:$MANPATH"
+
+export ACLOCAL_PATH="$HOME/opt/share/aclocal"
+export LD_LIBRARY_PATH="$HOME/opt/lib"
+export PKG_CONFIG_PATH="$HOME/opt/lib/pkgconfig"
+
+export HOMEBREW_NO_EMOJI='1'
+export HOMEBREW_DEVELOPER='1'
+
+export HOMEBREW_TEMP="$HOME/var/tmp"
+export HOMEBREW_CACHE="$HOME/.linuxbrew/Library/Caches/Homebrew"
+
+
+#. ~/.path
+. ~/.bash_prompt
+. ~/.exports
+. ~/.aliases
+. ~/.functions
+. ~/.extra
+
+shopt -s nocaseglob
+shopt -s histappend
+shopt -s cdspell

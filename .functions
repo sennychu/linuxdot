@@ -1,0 +1,53 @@
+echo "loading .functions......"
+
+
+# homebrew function shotcut, unlink then remove the pkg
+function bR() {
+  brew unlink "$@" && brew uninstall "$@"
+}
+
+# extract the xz filepackeg,and go to the extract path
+function uGz() {
+  filename="$@"
+  realname="$(echo $filename | sed  -e "s/.tar.gz//")"
+  tar xfvz $filename 
+  cd "./$realname" && echo "Unpack Done!!"
+}
+# extract the xz filepackeg,and go to the extract path
+function uXz() {
+  filename="$@"
+  realname="$(echo $filename | sed  -e "s/.tar.xz//")"
+  xz -dc $filename  | tar -xpf -
+  cd "./$realname" && echo "Unpack Done!!"
+}
+
+# extract the bz2 filepackeg,and go to the extract path
+function uBz() {
+  filename="$@"
+  realname="$(echo $filename | sed  -e "s/.tar.bz2//")"
+  bzcat $filename | tar -xf -    
+  cd "./$realname" && echo "Unpack Done!!"
+}
+
+ 
+# Create a new directory and enter it
+function mkd() {
+  mkdir -p "$@" && cd "$@"
+}
+ 
+# Use Git’s colored diff when available
+hash git &>/dev/null
+if [ $? -eq 0 ]; then
+  function diff() {
+    git diff --no-index --color-words "$@"
+  }
+fi
+
+# Create a git.io short URL
+function gitio() {
+  if [ -z "${1}" -o -z "${2}" ]; then
+    echo "Usage: \`gitio slug url\`"
+  return 1
+  fi
+  curl -i http://git.io/ -F "url=${2}" -F "code=${1}"
+}
