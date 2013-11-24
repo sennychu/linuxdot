@@ -21,8 +21,7 @@ relink() {
 DIR=$( cd "$( dirname "$0" )" && pwd )
 
 #relink ~/.bash_profile $DIR/bash_profile
-#relink ~/.gitignore    $DIR/git-ignore-global
-#relink ~/.hgrc         $DIR/hgrc
+relink ~/.bash_prompt    $DIR/bash_prompt
 relink ~/.bashrc       $DIR/bashrc
 relink ~/.gitconfig    $DIR/git-config
 relink ~/.inputrc      $DIR/inputrc
