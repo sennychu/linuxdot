@@ -24,3 +24,4 @@ realpath() {
                 return 1
         fi
 }
+
