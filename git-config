@@ -1,3 +1,5 @@
 [user]
 	name = sennychu
 	email = senny.share@gmail.com
+[core]
+	editor = nano
