@@ -31,6 +31,10 @@ alias -- -="cd -"
 alias dL="cd /home7/tvctopin/public_html/dl/source"
 alias wR="cd ~/public_html"
 alias tP="cd /home7/tvctopin/var/tmp"
+alias oP="cd ~/opt"
+alias sR="cd ~/opt/src"
+alias pK="cd ~/opt/src/pkg"
+alias dT="cd ~/.linuxdot"
 
 ## Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then
