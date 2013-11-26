@@ -3,3 +3,6 @@
 	email = senny.share@gmail.com
 [core]
 	editor = nano
+[credential]
+	helper = store
+	username = sennychu
