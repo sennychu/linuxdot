@@ -7,14 +7,14 @@ function bR() {
 }
 
 # extract the xz filepackeg,and go to the extract path
-function uGz() {
+function uG() {
   filename="$@"
   realname="$(echo $filename | sed  -e "s/.tar.gz//")"
   tar xfvz $filename 
   cd "./$realname" && echo "Unpack Done!!"
 }
 # extract the xz filepackeg,and go to the extract path
-function uXz() {
+function uX() {
   filename="$@"
   realname="$(echo $filename | sed  -e "s/.tar.xz//")"
   xz -dc $filename  | tar -xpf -
@@ -22,7 +22,7 @@ function uXz() {
 }
 
 # extract the bz2 filepackeg,and go to the extract path
-function uBz() {
+function uB() {
   filename="$@"
   realname="$(echo $filename | sed  -e "s/.tar.bz2//")"
   bzcat $filename | tar -xf -    
