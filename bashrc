@@ -41,7 +41,9 @@ unset another_bin
 export GNULIB_TOOL=$gprefix/src/gnulib
 export MANPATH="$gprefix/share/man:$MANPATH"
 export PKG_CONFIG_PATH="$gprefix/lib/pkgconfig"
-export PYTHONPATH="$gprefix/lib/python2.6/site-packages:$PYTHONPATH"
+#export PYTHONHOME="/home7/tvctopin"
+export PYTHONPATH="/home7/tvctopin/lib/python2.7/site-packages"
+export PIP_CONFIG_FILE="/home7/tvctopin/.pip.conf"
 #export LD_LIBRARY_PATH="$gprefix/lib:$gprefix/lib64"
 
 export CLASSPATH=.:$JAVA_HOME/lib/classes.zip

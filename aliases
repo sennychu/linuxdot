@@ -1,5 +1,10 @@
 echo "loading .aliases....."
 
+
+alias pS='ps ax | grep '
+alias pSh="pip search"
+alias pI="pip install --upgrade -v"
+
 #setup for rmate
 alias mAte="rmate -v -w "
 alias cF='./configure CC="/home7/tvctopin/opt/bin/gcc-4.2" CXX="/home7/tvctopin/opt/bin/g++-4.2" CFLAGS="-Os -w -pipe -march=core2 -msse4" CXXFLAGS="-Os -w -pipe -march=core2 -msse4" CPPFLAGS="-isystem /home7/tvctopin/opt/include" LDFLAGS="-L/home7/tvctopin/opt/lib -Wl,-headerpad_max_install_names" MAKEFLAGS="-j8" --prefix=/home7/tvctopin/opt --build=x86_64-redhat-linux-gnu --with-gnu-ld -C'
