@@ -4,10 +4,8 @@ echo "loading .aliases....."
 alias pS='ps ax | grep '
 alias pSh="pip search"
 alias pI="pip install --upgrade -v"
-
-#setup for rmate
-alias mAte="rmate -v -w "
-alias cF='./configure CC="/home7/tvctopin/opt/bin/gcc-4.2" CXX="/home7/tvctopin/opt/bin/g++-4.2" CFLAGS="-Os -w -pipe -march=core2 -msse4" CXXFLAGS="-Os -w -pipe -march=core2 -msse4" CPPFLAGS="-isystem /home7/tvctopin/opt/include" LDFLAGS="-L/home7/tvctopin/opt/lib -Wl,-headerpad_max_install_names" MAKEFLAGS="-j8" --prefix=/home7/tvctopin/opt --build=x86_64-redhat-linux-gnu --with-gnu-ld -C'
+alias cM="./configure --prefix=/home7/tvctopin/gnu  --build=x86_64-redhat-linux-gnu --with-gnu-ld "
+alias cH="./configure --help"
 alias wH="which -a"
 alias hS="history | grep "
 alias lS="ls -al"
@@ -20,9 +18,9 @@ alias bC="brew cleanup && brew prune"
 alias bE="brew edit "
 alias bU="brew update -v && brew upgrade -v"
 alias bL="brew list"
-alias hE="./configure --help"
+
 alias rM="rm -rf "
-alias sSh="ssh -o ServerAliveInterval=200 tvctopin@tvctop.info"
+#alias sSh="ssh -o ServerAliveInterval=200 tvctopin@tvctop.info"
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."

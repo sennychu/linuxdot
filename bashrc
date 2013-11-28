@@ -8,6 +8,7 @@ echo "loading .bashrc"
 
 export EDITOR='nano'
 
+# define DNS name
 whoami=`whoami`
 if [ -e "~/.dns" ]; then
   export DNS=`cat ~/.dns`
@@ -23,31 +24,33 @@ shopt -s histappend
 shopt -s nocaseglob
 shopt -s cdspell
 
-export gprefix="$HOME/gnu"
+
+export HOME="/home7/tvctopin"
+export GNUBIN="/home7/tvctopin/gnu"
+export sBIN="/home7/tvctopin/.script"
 export PATH="$HOME/bin:$HOME/sbin:/usr/lib64/qt-3.3/bin:/ramdisk/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/X11R6/bin"
 export JAVA_HOME="/usr/local/jdk"
+export CLASSPATH=.:$JAVA_HOME/lib/classes.zip
 for another_bin in \
   $JAVA_HOME/bin \
   $HOME/ruby/gems/bin \
   $HOME/.gem/ruby/1.9.3/bin \
   $HOME/perl5/bin:$PATH \
-  $gprefix/bin \
-  $gprefix/sbin
+  $sBIN \
+  $GNUBIN/bin \
+  $GNUBIN/sbin
 do
   [[ -e $another_bin ]] && export PATH=$another_bin:$PATH
 done
 unset another_bin
 
-export GNULIB_TOOL=$gprefix/src/gnulib
-export MANPATH="$gprefix/share/man:$MANPATH"
-export PKG_CONFIG_PATH="$gprefix/lib/pkgconfig"
-#export PYTHONHOME="/home7/tvctopin"
+export GNULIB_TOOL=$GNUBIN/src/gnulib
+export MANPATH="$GNUBIN/share/man:$HOME/share/man:$MANPATH"
+export PKG_CONFIG_PATH="$GNUBIN/lib/pkgconfig:$HOME/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PYTHONPATH="/home7/tvctopin/lib/python2.7/site-packages"
 export PIP_CONFIG_FILE="/home7/tvctopin/.pip.conf"
-#export LD_LIBRARY_PATH="$gprefix/lib:$gprefix/lib64"
 
-export CLASSPATH=.:$JAVA_HOME/lib/classes.zip
-
+#export LD_LIBRARY_PATH="$GNUBIN/lib:$GNUBIN/lib64:$HOME/lib"
 
 # No ._ files in archives please
 export COPYFILE_DISABLE=true
@@ -165,7 +168,7 @@ function set_prompt {
     homebrew_prompt="${BROWN}Homebrew:${COLOR_NONE} debugging ${HOMEBREW_DEBUG_INSTALL}\n"
 
   git_prompt="$(parse_git_branch)"
-  export PS1="[\w] ${git_prompt}${COLOR_NONE}\n${homebrew_prompt}\$ "
+  export PS1="[`pwd`] ${git_prompt}${COLOR_NONE}\n${homebrew_prompt}\$ "
   setWindowTitle "${PWD/$HOME/~}"
 }
 export PROMPT_COMMAND=set_prompt
@@ -188,6 +191,10 @@ function pgrep {
   find . -maxdepth 1 -mindepth 1 | egrep -v "$exclude" | xargs egrep -lir "$1" | egrep -v "$exclude" | xargs egrep -Hin --color "$1"
 }
 
+
+# for define pkg download path point to ~/src
+export HOMEBREW_CACHE="~/src/pkg" # ~/src/pkg=pkgDownload path
+alias  gP="brew unpack --dist=~/src/ "  # --dist=pkgUnpack path
 
 . ~/.bash_prompt
 . ~/.exports
