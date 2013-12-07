@@ -27,30 +27,35 @@ shopt -s cdspell
 
 export HOME="/home7/tvctopin"
 export GNUBIN="/home7/tvctopin/gnu"
+# my script path
 export sBIN="/home7/tvctopin/.script"
-export PATH="$HOME/bin:$HOME/sbin:/usr/lib64/qt-3.3/bin:/ramdisk/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/X11R6/bin"
-export JAVA_HOME="/usr/local/jdk"
-export CLASSPATH=.:$JAVA_HOME/lib/classes.zip
+export PATH="$HOME/bin:$HOME/sbin:/usr/lib64/qt-3.3/bin:/ramdisk/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/X11R6/bin:$GNUBIN/bin:$GNUBIN/sbin"
+
+
+if [ -e "java_home" ]; then
+  export JAVA_HOME="$(java_home)" && export CLASSPATH=.:$JAVA_HOME/lib/classes.zip && export PATH=$JAVA_HOME/bin:$PATH
+fi
+
 for another_bin in \
-  $JAVA_HOME/bin \
   $HOME/ruby/gems/bin \
   $HOME/.gem/ruby/1.9.3/bin \
   $HOME/perl5/bin:$PATH \
-  $sBIN \
-  $GNUBIN/bin \
-  $GNUBIN/sbin
+  $sBIN
 do
   [[ -e $another_bin ]] && export PATH=$another_bin:$PATH
 done
 unset another_bin
 
-export GNULIB_TOOL=$GNUBIN/src/gnulib
-export MANPATH="$GNUBIN/share/man:$HOME/share/man:$MANPATH"
-export PKG_CONFIG_PATH="$GNUBIN/lib/pkgconfig:$HOME/lib/pkgconfig:$PKG_CONFIG_PATH"
+export gnulib_path="/home7/tvctopin/src/gnulib"
+export GNULIB_PATH="/home7/tvctopin/src/gnulib"
+export gnulib_tool="/home7/tvctopin/src/gnulib/gnulib-tool"
+export GNULIB_TOOL="/home7/tvctopin/src/gnulib/gnulib-tool"
+export MANPATH="$HOME/share/man:$MANPATH:$GNUBIN/share/man"
+export PKG_CONFIG_PATH="$HOME/lib/pkgconfig:$PKG_CONFIG_PATH:$GNUBIN/lib/pkgconfig"
 export PYTHONPATH="/home7/tvctopin/lib/python2.7/site-packages"
 export PIP_CONFIG_FILE="/home7/tvctopin/.pip.conf"
 
-#export LD_LIBRARY_PATH="$GNUBIN/lib:$GNUBIN/lib64:$HOME/lib"
+#export LD_LIBRARY_PATH="$HOME/lib:$LD_LIBRARY_PATH:$GNUBIN/lib"
 
 # No ._ files in archives please
 export COPYFILE_DISABLE=true
@@ -192,11 +197,18 @@ function pgrep {
 }
 
 
-# for define pkg download path point to ~/src
-export HOMEBREW_CACHE="~/src/pkg" # ~/src/pkg=pkgDownload path
-alias  gP="brew unpack --dist=~/src/ "  # --dist=pkgUnpack path
-
+alias  gP="brew unpack --destdir=/home7/tvctopin/src"
 . ~/.bash_prompt
 . ~/.exports
 . ~/.aliases
 . ~/.functions
+
+export  HOMEBREW_BUILD_FROM_SOURCE="1"
+export  HOMEBREW_CURL_VERBOSE="1"
+export  HOMEBREW_DEVELOPER="1"
+export  HOMEBREW_KEEP_INFO="1"
+#export  HOMEBREW_MAKE_JOBS="2"
+export  HOMEBREW_SOURCEFORGE_MIRROR="heanet"
+export  HOMEBREW_VERBOSE="1"
+export  HOMEBREW_CACHE="/home7/tvctopin/src"
+export  HOMEBREW_TEMP="/home7/tvctopin/var/cache/Homebrew"
