@@ -1,5 +1,19 @@
 echo "loading .functions......"
 
+function show-empty-folders {
+    find . -depth -type d -empty
+}
+
+function kill-empty-folders {
+    find . -depth -type d -empty -exec rmdir "{}" \;
+}
+
+# homebrew function shotcut, unlink and relink pkg with force
+function bRL() {
+  brew unlink "$@" && brew link "$@" --overwrite
+}
+
+
 
 # homebrew function shotcut, unlink then remove the pkg
 function bR() {

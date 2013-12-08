@@ -22,3 +22,4 @@ _pip_completion()
 complete -o default -F _pip_completion pip
 # pip bash completion end
 
+export LD_LIBRARY_PATH=/home7/tvctopin/lib

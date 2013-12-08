@@ -20,7 +20,7 @@ relink() {
 
 DIR=$( cd "$( dirname "$0" )" && pwd )
 
-#relink ~/.bash_profile $DIR/bash_profile
+relink ~/.bash_profile         $DIR/bash_profile
 relink ~/.bash_prompt          $DIR/bash_prompt
 relink ~/.bashrc               $DIR/bashrc
 relink ~/.gitconfig            $DIR/git-config
@@ -37,10 +37,11 @@ relink ~/.screenrc             $DIR/screenrc
 relink ~/.inputrc              $DIR/inputrc
 relink ~/.lesshst              $DIR/lesshst
 relink ~/.gist                 $DIR/gist
+relink ~/.pip.conf             $DIR/pip.conf
 #relink ~/.pth                  $DIR/pth
 #relink ~/.pydistutils.cfg      $DIR/pydistutils.cfg
 #relink ~/.distutils.cfg        $DIR/distutils.cfg
-relink ~/.pip.conf              $DIR/pip.conf
+
 
 
 

@@ -1,2 +1,58 @@
 echo "loading .path......"
 
+        awk {print\ \$$1}
+}
+
+# Setup paths
+remove_from_path() {
+        [ -d $1 ] || return
+        # Doesn't work for first item in the PATH but don't care.
+        export PATH=$(echo $PATH | sed -e "s|:$1||") 2>/dev/null
+}
+
+add_to_path_start() {
+        [ -d $1 ] || return
+        remove_from_path "$1"
+        export PATH="$1:$PATH"
+}
+
+add_to_path_end() {
+        [ -d "$1" ] || return
+        remove_from_path "$1"
+        export PATH="$PATH:$1"
+}
+
+force_add_to_path_start() {
+        remove_from_path "$1"
+        export PATH="$1:$PATH"
+}
+
+quiet_which() {
+        which $1 1>/dev/null 2>/dev/null
+}
+
+add_to_path_end "$HOME/Documents/Scripts"
+add_to_path_end "$HOME/Scripts"
+add_to_path_end "$HOME/Library/Python/2.7/bin"
+add_to_path_end "$HOME/.gem/ruby/2.0.0/bin"
+add_to_path_end "$HOME/.gem/ruby/1.8/bin"
+add_to_path_end "$HOME/.rbenv/bin"
+add_to_path_end "$HOME/Applications/SublimeText2"
+add_to_path_end "/c/Program Files/Sublime Text 2"
+add_to_path_end "/Applications/GitX.app/Contents/Resources"
+add_to_path_end "/Applications/TextMate.app/Contents/Resources"
+add_to_path_start "$HOME/.homebrew/bin"
+add_to_path_start "$HOME/.homebrew/sbin"
+add_to_path_start "/usr/local/bin"
+add_to_path_start "/usr/local/sbin"
+
+# Run rbenv if it exists
+quiet_which rbenv && add_to_path_start "$(rbenv root)/shims"
+
+force_add_to_path_start ".bundle/bin"
+
+quiet_which ack-grep && alias ack=ack-grep
+export DIFF=diff
+quiet_which colordiff && export DIFF=colordiff && alias diff=colordiff
+
+

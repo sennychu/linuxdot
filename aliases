@@ -1,26 +1,29 @@
 echo "loading .aliases....."
 
 
-alias pS='ps ax | grep '
+alias pS="ps ax | grep"
 alias pSh="pip search"
 alias pI="pip install --upgrade -v"
-alias cM="./configure --prefix=/home7/tvctopin/gnu  --build=x86_64-redhat-linux-gnu --with-gnu-ld "
-alias cH="./configure --help"
-alias wH="which -a"
-alias hS="history | grep "
-alias lS="ls -al"
-alias fD="find ~/ -name "
-alias pS="ps ax | grep "
-alias bF="brew info"
-alias bS="brew search"
-alias bI="brew install "
-alias bC="brew cleanup && brew prune"
-alias bE="brew edit "
-alias bU="brew update -v && brew upgrade -v"
-alias bL="brew list"
 
-alias rM="rm -rf "
-#alias sSh="ssh -o ServerAliveInterval=200 tvctopin@tvctop.info"
+alias  gP="brew unpack --destdir=/home7/tvctopin/src"
+
+#setup for rmate
+alias mAte="rmate -v -w"
+alias wH="which -a"
+alias hS="history | grep"
+alias lS="ls -al"
+alias fD="find ~/ -name"
+alias pS="ps ax | grep"
+alias bF="brew cat"
+alias bS="brew search"
+alias bI="brew install"
+alias bC="brew cleanup && brew prune"
+alias bE="brew edit"
+alias bU="brew update && brew upgrade"
+alias bL="brew list"
+alias hE="./configure --help"
+alias rM="rm -rf"
+alias sSh="ssh -o ServerAliveInterval=200 tvctopin@tvctop.info"
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
@@ -31,13 +34,10 @@ alias ~="cd ~"
 alias -- -="cd -"
 
 ## Shortcuts
-alias dL="cd /home7/tvctopin/public_html/dl/source"
 alias wR="cd ~/public_html"
-alias tP="cd /home7/tvctopin/var/tmp"
-alias oP="cd ~/opt"
-alias sR="cd ~/opt/src"
-alias pK="cd ~/opt/src/pkg"
+alias sR="cd /home7/tvctopin/src"
 alias dT="cd ~/.linuxdot"
+alias bW="cd ~/.linuxdot"
 
 ## Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then
