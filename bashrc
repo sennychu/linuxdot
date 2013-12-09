@@ -3,6 +3,13 @@ echo "loading .bashrc"
 # 077 would be more secure, but 022 is more useful.
 umask 022
 
+export XML_CATALOG_FILES="/home7/tvctopin/etc/xml/catalog"
+export PYTHONPATH=/home7/tvctopin/lib/python2.7/site-packages:/home7/tvctopin/lib/python2.6/site-packages:$PYTHONPATH
+# for amazom s3 
+export EC2_PRIVATE_KEY="$(/bin/ls "$HOME"/.ec2/pk-*.pem | /usr/bin/head -1)"
+export EC2_CERT="$(/bin/ls "$HOME"/.ec2/cert-*.pem | /usr/bin/head -1)"
+export AWS_AUTO_SCALING_HOME="/home7/tvctopin/Cellar/auto-scaling/1.0.61.3/libexec"
+
 # Save more history
 export HISTSIZE=100000
 export SAVEHIST=100000
@@ -86,8 +93,8 @@ done
 unset another_bin
 
 
-export GNULIB_PATH="/home7/tvctopin/src/gnulib"
-export GNULIB_TOOL="/home7/tvctopin/src/gnulib/gnulib-tool"
+#export GNULIB_PATH="/home7/tvctopin/src/gnulib"
+#export GNULIB_TOOL="/home7/tvctopin/src/gnulib/gnulib-tool"
 export MANPATH="/home7/tvctopin/share/man:$MANPATH"
 #export PKG_CONFIG_PATH="/home7/tvctopin/lib/pkgconfig:$PKG_CONFIG_PATH"
 #export PYTHONPATH="/home7/tvctopin/lib/python2.7/site-packages"

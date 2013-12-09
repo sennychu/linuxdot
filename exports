@@ -20,25 +20,22 @@ export MANPAGER="less -X"
 # Always enable colored `grep` output
 export GREP_OPTIONS="--color=auto"
 
-
+#export HOMEBREW_MAKE_JOBS="1"
+export HOMEBREW_DEVELOPER="1"
+export HOMEBREW_KEEP_INFO="1"
+export HOMEBREW_VERBOSE="1"
+export HOMEBREW_CACHE="/home7/tvctopin/src"
+export HOMEBREW_TEMP="/home7/tvctopin/Cache"
+export HOMEBREW_SOURCEFORGE_MIRROR="heanet"
+export HOMEBREW_BUILD_FROM_SOURCE="1"
+export HOMEBREW_GITHUB_API_TOKEN="45f68a6d06ddae35010c253c63001d5f9e3d1832"
+export SSL_CERT_FILE=/home7/tvctopin/opt/curl-ca-bundle/share/ca-bundle.crt
+#export GIT_SSL_NO_VERIFY=1
+#export HOMEBREW_CURL_VERBOSE="0"
 # my Git credentials
 export GIT_AUTHOR_NAME="sennychu"
 export GIT_COMMITTER_NAME="sennychu"
 git config --global user.name "sennychu"
-
 export GIT_AUTHOR_EMAIL="senny.share@gmail.com"
 export GIT_COMMITTER_EMAIL="senny.share@gmail.com"
 git config --global user.email "senny.share@gmail.com"
-
-#export GIT_SSL_NO_VERIFY=1
-export  HOMEBREW_BUILD_FROM_SOURCE="1"
-#export  HOMEBREW_CURL_VERBOSE="0"
-export  HOMEBREW_DEVELOPER="1"
-export  HOMEBREW_KEEP_INFO="1"
-export  HOMEBREW_MAKE_JOBS="1"
-export  HOMEBREW_SOURCEFORGE_MIRROR="heanet"
-#export  HOMEBREW_VERBOSE="1"
-export  HOMEBREW_CACHE="/home7/tvctopin/src"
-export  HOMEBREW_TEMP="/home7/tvctopin/var/cache/Homebrew"
-export  HOMEBREW_GITHUB_API_TOKEN="45f68a6d06ddae35010c253c63001d5f9e3d1832"
-export SSL_CERT_FILE=/home7/tvctopin/opt/curl-ca-bundle/share/ca-bundle.crt
