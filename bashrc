@@ -92,15 +92,12 @@ do
 done
 unset another_bin
 
+export MANPATH="/home7/tvctopin/share/man:/home7/tvctopin/.linuxbrew/share/man:/usr/share/man:/usr/share/man:/usr/local/share/man:/usr/X11R6/man:/root/share/man"
 
-#export GNULIB_PATH="/home7/tvctopin/src/gnulib"
-#export GNULIB_TOOL="/home7/tvctopin/src/gnulib/gnulib-tool"
-export MANPATH="/home7/tvctopin/share/man:$MANPATH"
-#export PKG_CONFIG_PATH="/home7/tvctopin/lib/pkgconfig:$PKG_CONFIG_PATH"
-#export PYTHONPATH="/home7/tvctopin/lib/python2.7/site-packages"
+export PKG_CONFIG_PATH="/home7/tvctopin/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PIP_CONFIG_FILE="/home7/tvctopin/.pip.conf"
 
-export LD_LIBRARY_PATH="/home7/tvctopin/lib"
+export LD_LIBRARY_PATH="/home7/tvctopin/lib:$LD_LIBRARY_PATH"
 
 # No ._ files in archives please
 export COPYFILE_DISABLE=true

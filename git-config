@@ -7,3 +7,8 @@
 [credential]
 	helper = store
 	username = sennychu
+[http]
+	sslVerify = false
+[github]
+	user = sennychu
+	token = 5008d02321b34aa3a62aff890458e7de7b462b6a
