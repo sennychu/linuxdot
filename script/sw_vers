@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# create by senny chu,fake sw-vers
+
+echo "10.8.5"
+

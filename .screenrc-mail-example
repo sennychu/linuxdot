@@ -1,0 +1,11 @@
+# Gnu Screen configuration for Email and News
+# Author: Senny Chu - senny.share@gmail.com
+ 
+# Source main .screenrc for general settings
+source /home7/tvctopin/.screenrc
+ 
+screen mutt
+title "mail"
+ 
+screen newsbeuter
+title "news"

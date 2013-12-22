@@ -1,11 +1,79 @@
-# Disable the startup message
-startup_message off
+# GNU Screen - main configuration file
+# All other .screenrc files will source this file to inherit settings.
+# Author: Senny Chu - senny.share@gmail.com
 
-term xterm-256color
 
-##set a biger buffer
-scrollback 11024
-defscrollback 11024
 
+
+
+#
+termcap  xterm 'AF=\E[3%dm:AB=\E[4%dm'
+terminfo xterm 'AF=\E[3%p1%dm:AB=\E[4%p1%dm'
+
+# set encoding
+defencoding utf8
+encoding utf-8 utf-8
+setenv LC_CTYPE en_US.UTF-8
+
+logfile "$HOME/screen.log"
+deflog on
+shelltitle '$ |bash'
+
+##### def #####
 #use bash as default shell
 shell bash
+ 
+# Allow bold colors - necessary for some reason
+attrcolor b ".I"
+attrcolor i "+b"
+ 
+# Tell screen how to set colors. AB = background, AF=foreground
+termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+ 
+# Enables use of shift-PgUp and shift-PgDn
+termcapinfo xterm|xterms|xs|rxvt ti@:te@
+ 
+# Erase background with current bg color
+defbce "on"
+
+# Disable the startup message
+startup_message off
+vbell on
+ 
+# Enable 256 color term
+term xterm-256color
+ 
+# Cache 30000 lines for scroll back
+defscrollback 50000
+scrollback 50000
+ 
+# New mail notification
+#backtick 101 30 15 $HOME/bin/mailstatus.sh
+ 
+hardstatus alwayslastline
+# Very nice tabbed colored hardstatus line
+hardstatus string '%{= Kd} %{= Kd}%-w%{= Kr}[%{= KW}%n %t%{= Kr}]%{= Kd}%+w %-= %{KG} %H%{KW}|%{KY}%101`%{KW}|%D %M %d %Y%{= Kc} %C%A%{-}'
+
+# change command character from ctrl-a to ctrl-b (emacs users may want this)
+#escape ^Bb
+
+# resize
+#bind + resize +5
+#bind - resize -5
+#bind = resize =
+#bind _ resize max
+
+# bindings
+#bind % screen -t top top
+#bind s eval split focus next next
+#bind S eval split focus next next
+#bind N eval "number $WINDOW+1"
+#bind P eval "number $WINDOW-1"
+
+#
+multiuser on
+ 
+# Hide hardstatus: ctrl-a f
+#bind f eval "hardstatus ignore"
+# Show hardstatus: ctrl-a F
+#bind F eval "hardstatus alwayslastline"

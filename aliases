@@ -1,4 +1,4 @@
-echo "loading .aliases....."
+echo "loading .aliases....." > /dev/null
 
 
 alias pS="ps ax | grep"

@@ -1,0 +1,18 @@
+# Gnu Screen example project configuration file
+# Author: Senny Chu - senny.share@gmail.com
+ 
+source /home7/tvctopin/.screenrc
+ 
+chdir /home7/tvctopin/
+screen
+title "bash"
+ 
+chdir /home7/tvctopin/Screen/client
+screen bash
+exec vim client.c
+title "client"
+ 
+chdir /home7/tvctopin/Screen/server
+screen bash
+exec vim server.c
+title "server"

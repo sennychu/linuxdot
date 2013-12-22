@@ -19,7 +19,11 @@ relink() {
 }
 
 DIR=$( cd "$( dirname "$0" )" && pwd )
-
+# link directory
+relink ~/.links                $DIR/links
+relink ~/.script               $DIR/script
+relink ~/.subversion           $DIR/subversion
+# link file
 relink ~/.bash_profile         $DIR/bash_profile
 relink ~/.bash_prompt          $DIR/bash_prompt
 relink ~/.bashrc               $DIR/bashrc
@@ -38,18 +42,22 @@ relink ~/.inputrc              $DIR/inputrc
 relink ~/.lesshst              $DIR/lesshst
 relink ~/.gist                 $DIR/gist
 relink ~/.pip.conf             $DIR/pip.conf
+relink ~/.bash_history         $DIR/bash_history
+relink ~/.zshrc                $DIR/zshrc
+relink ~/.pearrc               $DIR/pearrc
+relink ~/.cvspass              $DIR/cvspass
+relink ~/.contactemail         $DIR/contactemail
+relink ~/.dns                  $DIR/dns
+relink ~/.git-credentials      $DIR/git-credentials
+relink ~/.rnd                  $DIR/rnd
+relink ~/.zlogin               $DIR/zlogin
+relink ~/.vimrc                $DIR/vimrc
+relink ~/.searchblurb          $DIR/searchblurb
+relink ~/.searchindex          $DIR/searchindex
+# temp backup
 #relink ~/.pth                  $DIR/pth
 #relink ~/.pydistutils.cfg      $DIR/pydistutils.cfg
 #relink ~/.distutils.cfg        $DIR/distutils.cfg
-relink ~/.bash_history        $DIR/bash_history
-relink ~/.zshrc               $DIR/zshrc
-relink ~/.pearrc              $DIR/pearrc
-relink ~/.cvspass             $DIR/cvspass
-relink ~/.contactemail        $DIR/contactemail
-relink ~/.dns                 $DIR/dns
-relink ~/.git-credentials     $DIR/git-credentials
-relink ~/.rnd                 $DIR/rnd
-relink ~/.zlogin              $DIR/zlogin
-relink ~/.vimrc               $DIR/vimrc
+#relink ~/.config.site          $DIR/config.site
 
 

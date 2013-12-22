@@ -1,4 +1,4 @@
-echo "loading .bash_prompt......"
+echo "loading .bash_prompt......" > /dev/null
 
 if [[ $COLORTERM = gnome-* && $TERM = xterm ]] && infocmp gnome-256color >/dev/null 2>&1; then
   export TERM=gnome-256color
@@ -141,8 +141,8 @@ function set_prompt {
     homebrew_prompt="${BROWN}Homebrew:${COLOR_NONE} debugging ${HOMEBREW_DEBUG_INSTALL}\n"
 
   git_prompt="$(parse_git_branch)"
-  export PS1="[`pwd`] ${git_prompt}${COLOR_NONE}\n${homebrew_prompt}\$ "
-  setWindowTitle "${PWD/$HOME/~}"
+  export PS1="${YELLOW}[`pwd`${RED} ${git_prompt}${COLOR_NONE}\n${homebrew_prompt}${RED}  Senny${YELLOW}:] ${CYAN}$ ${COLOR_NONE}"
+  setWindowTitle "${HOST/PWD/HOME/~}"
 }
 export PROMPT_COMMAND=set_prompt
 
@@ -154,12 +154,3 @@ function git-root {
 }
 
 
-# Open a manpage in the browser
-function bman {
-  man "${1}" | man2html | browser
-}
-
-function pgrep {
-  local exclude="\.svn|\.git|\.swp|\.coverage|\.pyc|_build"
-  find . -maxdepth 1 -mindepth 1 | egrep -v "$exclude" | xargs egrep -lir "$1" | egrep -v "$exclude" | xargs egrep -Hin --color "$1"
-}

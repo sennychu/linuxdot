@@ -11301,3 +11301,3770 @@ sh updatebash.sh
 cd
 #1387414392
 exit
+#1387414457
+cd .linuxdot
+#1387414461
+lS
+#1387414470
+rmate updatebash.sh
+#1387414500
+cat coffee_history
+#1387418342
+cat mysql_history
+#1387418590
+sh updatebash.sh
+#1387418608
+git add .
+#1387418616
+git commit -a
+#1387418706
+git push -v
+#1387418778
+git config --global push.default matching
+#1387418786
+git config --global push.default simple
+#1387418790
+git push -v
+#1387418814
+git commit -a
+#1387418828
+git push -v
+#1387418841
+cd
+#1387418843
+lS
+#1387418864
+chmod 700 /var/log/domlogs/tvctopin
+#1387418882
+tail -f /var/log/domlogs/tvctopin
+#1387418890
+lS /var/log/domlogs/tvctopin
+#1387418916
+cat /var/log/domlogs/tvctopin/tvctop.info
+#1387418995
+lS .config
+#1387418999
+lS .config/fish/
+#1387419009
+cat  .config/fish/config.fish 
+#1387419046
+rM .config
+#1387419055
+lS
+#1387419065
+lS .subversion
+#1387419083
+cat  .subversion/config 
+#1387419168
+mv .subversion   sources/.subversion
+#1387419172
+lS
+#1387419195
+rmate .linuxdot/updatebash.sh
+#1387419313
+mv .script   sources/script
+#1387419362
+ls .linuxdot/
+#1387419374
+lS .linuxdot/
+#1387419418
+mv  sources/script   ~/.linuxdot/script
+#1387419451
+mv  sources/.subversion ~/.linuxdot/subversion
+#1387419460
+lS ~/.linuxdot
+#1387419466
+lS
+#1387419533
+mv .searchindex  .linuxdot/searchindex 
+#1387419563
+mv .searchblurb .linuxdot/searchindex
+#1387419665
+lS .linuxdot
+#1387419703
+nano .linuxdot/searchindex
+#1387419729
+nano .linuxdot/searchblurb
+#1387419766
+lS .linuxdot/.MirrorSearch
+#1387419776
+lS .MirrorSearch
+#1387419785
+lS .MirrorSearch/cpanmetadb.cpanel.net/
+#1387419815
+rM homebrew-linuxbrew
+#1387419831
+lS glibc-link
+#1387419836
+rM glibc-link
+#1387419846
+lS .links
+#1387419859
+lS .links/bookmarks.html 
+#1387419866
+cat  .links/bookmarks.html 
+#1387419907
+mv .links  .linuxdot/links
+#1387420008
+cd  .linuxdot
+#1387420012
+sh updatebash.sh
+#1387420034
+lS
+#1387420040
+lS ~
+#1387420111
+mv dotfiles-master ~/public_html/dev/
+#1387420122
+mv ~/dotfiles-master ~/public_html/dev/
+#1387420139
+lS .pip
+#1387420144
+cd
+#1387420147
+lS .pip
+#1387420166
+rM .pip
+#1387420169
+lS
+#1387420188
+lS .local
+#1387420199
+lS .local/lib/python2.7/site-packages/
+#1387420209
+rM .local
+#1387420226
+lS
+#1387420254
+lS .lftp
+#1387420281
+rM .lftp
+#1387420292
+ls
+#1387420306
+rM libffi-3.0.13
+#1387420313
+lS Cache
+#1387420359
+rM Cache/*
+#1387420376
+lS .trash
+#1387420380
+rM .trash
+#1387420383
+lS
+#1387420404
+lS myFile
+#1387420412
+rM myFile
+#1387420457
+mv myFile/BackupNow_bk/.system BackupNow/
+#1387420508
+rM myFile/*
+#1387420545
+mv myFile/BackupNow_bk BackupNow
+#1387420553
+lS myFile
+#1387420560
+rM myFile
+#1387420565
+ls
+#1387420600
+ls libexec
+#1387420641
+mv libexec/* sbin/
+#1387420649
+rM libexec
+#1387420668
+ls tmp
+#1387420684
+ls var
+#1387420694
+ls var/cache/squid/
+#1387420735
+rM var/cache/squid
+#1387420754
+lS src
+#1387420762
+cd src
+#1387420763
+ls
+#1387420937
+rM xauth-1.0.7 developer_cmds-60 linuxthreads linuxthreads_db jdk7-ee67ee3bd597 jdk-5afe3630e49a libffi-3.0.13 binutils-2.14  libffi-3.0.13 
+#1387420951
+ls
+#1387421050
+rM mosh libX11-1.4.99.901 autotools-dev-20120608.1  acl-2.2.51 x11perf-1.5.4 xcb-proto-1.7.1
+#1387421054
+ls
+#1387421058
+lS
+#1387421122
+rM pip-1.4.1 *.deb
+#1387421276
+rm tip.tar.gz.1 nettle-2.6.tar.gz gzip-1.5.tar.gz acl_2.2.51.orig.tar.bz2 acl-2.2.51.tar.bz2 autoconf-archive-2013.11.01.tar.bz2
+#1387421295
+ls
+#1387421412
+rm libtool_2.4.2.orig.tar.gz glibc-2.18.tar.bz2 freetype-2.5.0.1.tar.gz  binutils.tar.bz2  
+#1387421427
+bU && bC
+#1387421508
+rmate /home7/tvctopin/.linuxbrew/Library/Formula/curl.rb
+#1387421591
+bU && bC
+#1387421791
+brew doctor
+#1387421884
+echo "git config --global http.sslVerify false" >> ~/.exports
+#1387421911
+brew link gcc
+#1387421940
+bFF gcc
+#1387421970
+lS ~/Cellar/gcc/4.8.2
+#1387421976
+lS ~/Cellar/gcc/4.8.2/lib
+#1387421988
+lS ~/Cellar/gcc/4.8.2/lib/gcc
+#1387422002
+lS ~/Cellar/gcc/4.8.2/libexec/gcc/x86_64-lfs-linux-gnu/4.8.2/
+#1387422020
+bR gcc
+#1387422086
+lS /home7/tvctopin/include/iconv.h
+#1387422101
+cat /home7/tvctopin/include/iconv.h
+#1387422153
+rm /home7/tvctopin/include/iconv.h
+#1387422176
+rm /home7/tvctopin/include/libintl.h
+#1387422187
+brew doctor
+#1387422293
+bR curl
+#1387422305
+brew doctor
+#1387422343
+bS curl
+#1387422387
+git config --global http.sslVerify false
+#1387422396
+brew missing
+#1387422412
+rmate .bashrc
+#1387422419
+cd
+#1387422421
+rmate .bashrc
+#1387423206
+rmate .exports 
+#1387423653
+exit
+#1387423706
+rmate .bashrc
+#1387424087
+getconf _NPROCESSORS_ONLN
+#1387424185
+rmate .exports 
+#1387424405
+exit
+#1387424439
+rmate .bashrc
+#1387424729
+exit
+#1387425218
+rmate .bashrc
+#1387425343
+rmate .exports 
+#1387425488
+exit
+#1387425655
+ls
+#1387425681
+rm 1 
+#1387425686
+lS
+#1387425784
+rM .local
+#1387425804
+bR autojump
+#1387425827
+bFF autojump
+#1387425881
+rmate ~/.bash_profile
+#1387425938
+rmate ~/.zshrc
+#1387425950
+exit
+#1387426012
+ls
+#1387426017
+lS
+#1387426028
+bI m4
+#1387426163
+echo $PATH
+#1387426214
+rmate .exports 
+#1387426224
+rmate .bashrc
+#1387426364
+ls /home7/tvctopin/ruby/gems/bi
+#1387426367
+ls /home7/tvctopin/ruby/gems/bin
+#1387426377
+ls /home7/tvctopin/.gem/ruby/1.9.3/bin
+#1387426507
+wH rmate
+#1387426528
+~/.gem/ruby/1.9.3/bin/rmate .bash_profile 
+#1387426760
+exit
+#1387426858
+bU
+#1387426892
+bC
+#1387427256
+rmate .bashrc
+#1387427307
+exit
+#1387427357
+brew list
+#1387427435
+bFF flex
+#1387427448
+export EDITOR=nano
+#1387427460
+export EDITOR=rmate
+#1387427467
+bE flex
+#1387427486
+bI flex
+#1387427600
+bFF libiconv
+#1387427611
+bE libiconv
+#1387427647
+bI libiconv
+#1387427993
+bFF guile
+#1387428012
+cd sources
+#1387428014
+ls
+#1387428051
+bFF bc
+#1387428060
+bS bc
+#1387428093
+bF check
+#1387428130
+bI check
+#1387428350
+bS compat
+#1387428361
+bFF libusb-compat
+#1387428387
+bFF libusb
+#1387428396
+bI libusb --HEAD 
+#1387428438
+bI libusb 
+#1387428536
+bFF libusb-compat
+#1387428544
+bI libusb-compat
+#1387428573
+ls
+#1387428595
+bF coreutils
+#1387428600
+bFF coreutils
+#1387428638
+bFF dejagnu
+#1387428649
+bI dejagnu --HEAD
+#1387428756
+ls
+#1387428789
+bFF expect
+#1387428883
+bI  expect --enable-thre
+#1387428906
+bI  expect -enable-threads
+#1387429006
+bFF file
+#1387429015
+bS file
+#1387429034
+ls
+#1387429135
+bFF patch
+#1387429144
+bS patch
+#1387429192
+bFF gpatch
+#1387429219
+bFF patchutils
+#1387429370
+cd sources/
+#1387429372
+ls
+#1387429385
+bFF patchutils
+#1387429393
+bI patchutils
+#1387429472
+bS util
+#1387429530
+bF debianutils
+#1387429539
+bFF debianutils
+#1387429543
+bI debianutils
+#1387429572
+bFF lmutil
+#1387429577
+bI lmutil
+#1387429596
+bFF psutils
+#1387429601
+bI psutils
+#1387429618
+bFF plotutils
+#1387429623
+bI plotutils
+#1387429647
+bFF msktutil
+#1387429651
+bI msktutil
+#1387429688
+bFF gcutil
+#1387429700
+bI gcutil
+#1387429711
+bS cpp
+#1387429729
+bFF cppunit
+#1387429736
+bI cppunit
+#1387429917
+bFF unittest-cpp
+#1387429934
+bI unittest-cpp
+#1387429967
+bS cpp
+#1387429982
+bFF libcppa
+#1387429995
+bS gnu
+#1387430003
+bFF gnu-getopt
+#1387430010
+bE gnu-getopt
+#1387430023
+bI gnu-getopt
+#1387430035
+bS gnu
+#1387430045
+bFF gnu-barcode
+#1387430052
+bI gnu-barcode
+#1387430068
+bFF gnu-apl
+#1387430074
+bI gnu-apl
+#1387430151
+bFF gnu-units
+#1387430165
+bE gnu-units
+#1387430185
+bI gnu-units --default-names
+#1387430217
+bS gnu
+#1387430242
+bFF gnuplot
+#1387430289
+bI gnuplot --HEAD --cairo --latex --pdf --tests 
+#1387430310
+bI gnuplot --HEAD  --latex --pdf --tests 
+#1387430790
+bFF autom4te
+#1387430812
+bS autom4
+#1387430828
+bS gnu
+#1387430841
+bFF gnustep-make
+#1387430853
+bFF gnu-scientific-library
+#1387430859
+bI gnu-scientific-library
+#1387471044
+ls
+#1387471060
+./Configure --help
+#1387471985
+bI gnu-scientific-library
+#1387471993
+bI openssl
+#1387472010
+fg
+#1387472030
+exit
+#1387472438
+ls
+#1387472474
+cat INSTALL
+#1387473266
+exit
+#1387469890
+bFF node
+#1387469900
+bI /usr/local/lib/node_modules
+#1387469914
+bI node --HEAD
+#1387470145
+bF openssl
+#1387470163
+bE openssl
+#1387470187
+brew unlink openssl
+#1387470207
+bI node --HEAD
+#1387470376
+bI node 
+#1387470475
+bFF curl
+#1387470495
+bFF openssl
+#1387470510
+bR openssl
+#1387470534
+bFF openssl
+#1387470551
+bI openssl 
+#1387470555
+bI openssl
+#1387470563
+bE openssl
+#1387470635
+export EDITOR=rmate
+#1387470639
+bE openssl
+#1387470665
+bFF openssl
+#1387470672
+bI openssl
+#1387470788
+bE openssl
+#1387470879
+wH openssl
+#1387470894
+/bin/openssl -v
+#1387470934
+/bin/openssl version
+#1387470956
+/bin/openssl verify
+#1387470996
+/bin/openssl enc
+#1387471035
+bI openssl -i
+#1387472041
+bI openssl 
+#1387472399
+bE openssl
+#1387472427
+bI openssl -i
+#1387473271
+brew --env
+#1387473513
+bI openssl 
+#1387473996
+cd sources/
+#1387473997
+ls
+#1387474091
+wget http://ftp.de.debian.org/debian/pool/main/o/openssl/openssl_1.0.1e-2.dsc
+#1387474143
+brew create http://ftp.de.debian.org/debian/pool/main/o/openssl/openssl_1.0.1e.orig.tar.gz
+#1387474156
+mv /home7/tvctopin/.linuxbrew/Library/Formula/openssl.rb /home7/tvctopin/.linuxbrew/Library/Formula/openssl.rb_bk
+#1387474158
+brew create http://ftp.de.debian.org/debian/pool/main/o/openssl/openssl_1.0.1e.orig.tar.gz
+#1387474205
+ls ~/lib/libssl*
+#1387474214
+ls ~/lib/
+#1387474307
+wH wget
+#1387474328
+/bin/wget http://ftp.de.debian.org/debian/pool/main/o/openssl/openssl_1.0.1e-2.debian.tar.gz
+#1387474575
+/bin/wget http://ftp.de.debian.org/debian/pool/main/o/openssl/openssl_1.0.1e.orig.tar.gz
+#1387474600
+ls
+#1387474623
+rm openssl_1.0.1e-2.debian.tar.gz.1 
+#1387474638
+uG openssl_1.0.1e.orig.tar.gz
+#1387474642
+ls
+#1387474658
+cd openssl-1.0.1e
+#1387474660
+ls
+#1387474752
+..
+#1387474818
+wH git
+#1387474840
+/usr/bin/git clone git://git.openssl.org/openssl.git
+#1387475335
+wget --header="Host: git.openssl.org" --header="User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:26.0) Gecko/20100101 Firefox/26.0" --header="Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" --header="Accept-Language: en,zh-cn;q=0.8,zh;q=0.5,en-us;q=0.3" --header="Referer: http://git.openssl.org/gitweb/?p=openssl.git;a=commit;h=46ebd9e3bb623d3c15ef2203038956f3f7213620" --header="Connection: keep-alive" "http://git.openssl.org/gitweb/?p=openssl.git;a=snapshot;h=46ebd9e3bb623d3c15ef2203038956f3f7213620;sf=tgz" -O "openssl-46ebd9e.tar.gz" -c
+#1387475351
+/usr/bin/wget --header="Host: git.openssl.org" --header="User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:26.0) Gecko/20100101 Firefox/26.0" --header="Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" --header="Accept-Language: en,zh-cn;q=0.8,zh;q=0.5,en-us;q=0.3" --header="Referer: http://git.openssl.org/gitweb/?p=openssl.git;a=commit;h=46ebd9e3bb623d3c15ef2203038956f3f7213620" --header="Connection: keep-alive" "http://git.openssl.org/gitweb/?p=openssl.git;a=snapshot;h=46ebd9e3bb623d3c15ef2203038956f3f7213620;sf=tgz" -O "openssl-46ebd9e.tar.gz" -c
+#1387475404
+/usr/bin/wget --header="Host: git.openssl.org" --header="User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:26.0) Gecko/20100101 Firefox/26.0" --header="Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" --header="Accept-Language: en,zh-cn;q=0.8,zh;q=0.5,en-us;q=0.3" --header="Referer: http://git.openssl.org/gitweb/?p=openssl.git;a=summary" --header="Connection: keep-alive" "http://git.openssl.org/gitweb/?p=openssl.git;a=snapshot;h=fc0503a25cd638b93f7af04640c20042e0329b3b;sf=tgz" -O "openssl-fc0503a.tar.gz" -c
+#1387475535
+ls
+#1387475544
+rM openssl-1.0.1e
+#1387475563
+uG openssl-46ebd9e.tar.gz
+#1387475570
+ls
+#1387475699
+type INSTALL.W32 
+#1387475707
+cat INSTALL.W32
+#1387475784
+cat INSTALL.OS2
+#1387475858
+cat INSTALL.MacOS 
+#1387476281
+./config
+#1387476706
+opin/gnu/binutils/bin:/home7/tvctopin/gnu/bin:/home7/tvctopin/gnu/sbin:/home7/tvctopin/.script:/home7/tvctopin/.gem/ruby/1.9.3/bin:/home7/tvctopin/ruby/gems/bin:/home7/tvctopin/bin:/home7/tvctopin/sbin:/usr/lib64/qt-3.3/bin:/ramdisk/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/X11R6/bin
+#1387476716
+openssl version
+#1387476877
+bI openssl 
+#1387476918
+mv /home7/tvctopin/.linuxbrew/Library/Formula/openssl.rb_nk /home7/tvctopin/.linuxbrew/Library/Formula/openssl.rb
+#1387476921
+bI openssl 
+#1387476948
+mv /home7/tvctopin/.linuxbrew/Library/Formula/openssl.rb_bk /home7/tvctopin/.linuxbrew/Library/Formula/openssl.rb
+#1387476951
+bI openssl 
+#1387477179
+export CFLAGS="-fPIC"
+#1387477858
+./config linux-x86_64 --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic shared -no-ssl2 -no-ssl3  CFLAGS="-fPIC" linux-x86_64 gcc:-Os -w -pipe -march=core2 -msse4 -m32 -fips -DUSE_CRYPTODEV_DIGESTS 
+#1387477921
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic shared -no-ssl2 -no-ssl3  CFLAGS="-fPIC"  gcc:-Os -w -pipe -march=core2 -msse4 -m32 -fips -DUSE_CRYPTODEV_DIGESTS 
+#1387477967
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic shared -no-ssl2 -no-ssl3   gcc:-Os -w -pipe -march=core2 -msse4 -m32 -fips -DUSE_CRYPTODEV_DIGESTS 
+#1387478068
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic shared -no-ssl2 -no-ssl3   -Os -w -pipe -march=core2 -msse4 -m32 -fips -DUSE_CRYPTODEV_DIGESTS 
+#1387478124
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic shared -no-ssl2 -no-ssl3   -Os -w -pipe -march=core2 -msse4  -fips -DUSE_CRYPTODEV_DIGESTS 
+#1387478141
+make depend
+#1387478171
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic shared -no-ssl2 -no-ssl3   -Os -w -pipe -march=core2 -msse4 -DUSE_CRYPTODEV_DIGESTS 
+#1387478181
+make depend
+#1387478250
+make all
+#1387478493
+make clean
+#1387478522
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic  -no-ssl2 -no-ssl3   -Os -w -pipe -march=core2 -msse4 -DUSE_CRYPTODEV_DIGESTS 
+#1387478545
+exit
+#1387485322
+cd sources/
+#1387485346
+ls
+#1387485356
+bF openssl-46ebd9e
+#1387485368
+cd openssl-46ebd9e
+#1387485371
+ls
+#1387485383
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic  -no-ssl2 -no-ssl3   -Os -w -pipe -march=core2 -msse4 -DUSE_CRYPTODEV_DIGESTS 
+#1387485404
+make depend
+#1387485547
+make
+#1387487096
+make clean
+#1387487700
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic shared -no-ssl2 -no-ssl3   -Os -w -pipe -march=core2 -msse4 -m32 -fips -DUSE_CRYPTODEV_DIGESTS 
+#1387487823
+ls ./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl -no-ssl2 -no-ssl3   gcc: -march=core2 -msse4 -fpic
+#1387487868
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl -no-ssl2 -no-ssl3   gcc: -march=core2 -msse4 -fpic
+#1387487891
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl -no-ssl2 -no-ssl3  -march=core2 -msse4 -fpic
+#1387487962
+make depend
+#1387488120
+make all
+#1387488372
+make install
+#1387489273
+ls /home7/tvctopin/Cellar/openssl/1.0.1e
+#1387489283
+ls /home7/tvctopin/Cellar/openssl/1.0.1e/bin
+#1387489522
+ls /home7/tvctopin/Cellar/openssl/1.0.1e/bin/
+#1387489794
+lS /home7/tvctopin/bin
+#1387489824
+brew link openssl
+#1387489834
+brew link openssl --force
+#1387489906
+openssl version
+#1387489919
+make test
+#1387490047
+ls ~/ssl
+#1387490062
+ls ~/ssl/man/
+#1387490156
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl -no-ssl2 -no-ssl3  -march=core2 -msse4 -fpic
+#1387490750
+brew unlink openssl
+#1387490760
+make depend
+#1387491019
+brew unlink openssl
+#1387491034
+bR openssl
+#1387491242
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic shared -no-ssl2 -no-ssl3  CFLAGS="-fPIC"  gcc:-Os -w -pipe -march=core2 -msse4 -m32 -fips -DUSE_CRYPTODEV_DIGESTS 
+#1387491249
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl  gcc:-march=core2 -msse4 -fpic -fips
+#1387491301
+make
+#1387491373
+make clean
+#1387491385
+ls ../
+#1387491393
+..
+#1387491397
+uG openssl_1.0.1e.orig.tar.gz
+#1387491409
+cd openssl-1.0.1e
+#1387491411
+ls
+#1387491433
+ls ../
+#1387491446
+rm -rf openssl-46ebd9e 
+#1387491460
+rm -rf openssl-46ebd9e
+#1387491508
+bE openssl
+#1387491821
+export CFLAGS="-fPIC"
+#1387491827
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl  --MANDIR=/home7/tvctopin/share/man --openssldir=/home7/tvctopin/etc/openssl linux-elf gcc: -fpic -fips
+#1387491863
+$me --help
+#1387491910
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl  --MANDIR=/home7/tvctopin/share/man --openssldir=/home7/tvctopin/etc/openssl linux-elf gcc: -fpic -fips
+#1387492019
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl  --MANDIR=/home7/tvctopin/share/man --openssldir=/home7/tvctopin/etc/openssl linux-elf-gcc: -fips
+#1387492044
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl  --MANDIR=/home7/tvctopin/share/man --openssldir=/home7/tvctopin/etc/openssl linux-el -gcc: -fips
+#1387492058
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl  --MANDIR=/home7/tvctopin/share/man --openssldir=/home7/tvctopin/etc/openssl linux-elf gcc: -fips
+#1387492069
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl  --MANDIR=/home7/tvctopin/share/man --openssldir=/home7/tvctopin/etc/openssl  gcc: -fips
+#1387492117
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl  --MANDIR=/home7/tvctopin/share/man --openssldir=/home7/tvctopin/etc/openssl  gcc: -fips  zlib-dynamic
+#1387492388
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl  --MANDIR=/home7/tvctopin/share/man --openssldir=/home7/tvctopin/etc/opmakeenssl  gcc: -fips  zlib-dynamic
+#1387492393
+make clean
+#1387492398
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e   --MANDIR=/home7/tvctopin/share/man --MANSUFFIX=/home7/tvctopin/ssl  --openssldir=/home7/tvctopin/etc/openssl linux-elf-gcc: -fips
+#1387492414
+make clean
+#1387492425
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e   --MANDIR=/home7/tvctopin/share/man --MANSUFFIX=/home7/tvctopin/ssl  --openssldir=/home7/tvctopin/etc/openssl linux-elf gcc: -fips
+#1387492442
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e   --MANDIR=/home7/tvctopin/share/man --MANSUFFIX=/home7/tvctopin/ssl  --openssldir=/home7/tvctopin/etc/openssl gcc: -fips
+#1387492617
+./config  -fips --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e   --MANDIR=/home7/tvctopin/share/man --MANSUFFIX=/home7/tvctopin/ssl  --openssldir=/home7/tvctopin/etc/openssl linux-elf-gcc
+#1387492629
+./config  -fips --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e   --MANDIR=/home7/tvctopin/share/man --MANSUFFIX=/home7/tvctopin/ssl  --openssldir=/home7/tvctopin/etc/openssl gcc
+#1387492783
+./config  -fips --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e   --MANDIR=/home7/tvctopin/share/man --MANSUFFIX=/home7/tvctopin/ssl  --openssldir=/home7/tvctopin/etc/openssl gcc: -Os -w -pipe -march=core2 
+#1387492788
+gcc -v
+#1387492792
+openssl version
+#1387492837
+./config  -fips --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic shared -no-ssl2 -no-ssl3   gcc:-Os -w -pipe -march=core2 -msse4 -m64 -fips -DUSE_CRYPTODEV_DIGESTS 
+#1387492895
+make depend
+#1387493111
+./config  -fips --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic shared -no-ssl2 -no-ssl3   gcc:-Os -w -pipe -march=core2 -msse4 -m64 -fips -DUSE_CRYPTODEV_DIGESTS 
+#1387493247
+./config  -fips --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic linux-shared -no-ssl2 -no-ssl3   gcc:-Os -w -pipe -march=core2 -msse4 -m64 -fips -DUSE_CRYPTODEV_DIGESTS 
+#1387493271
+./config  -fips --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic   gcc:-Os -w -pipe -march=core2 -msse4 -m64 -fips -DUSE_CRYPTODEV_DIGESTS 
+#1387493308
+make
+#1387493318
+make clean
+#1387493351
+./config  -fips --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic   gcc:-Os -w -pipe -march=core2 -msse4 -m64 
+#1387493375
+make depend
+#1387493402
+make all
+#1387493411
+make clean
+#1387493417
+./config  -fips --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic   gcc:-Os -w -pipe -march=core2 -msse4 -m64 
+#1387493435
+make && make tesst
+#1387493507
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic  gcc:-Os -w -pipe -march=core2 -msse4 -m64 -fips
+#1387493519
+make && make tesst
+#1387493587
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic   -no-ssl2 -no-ssl3  gcc:-march=core2 -msse4 -m64 -fips
+#1387493633
+make depend
+#1387493645
+make clean
+#1387493673
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic   -no-ssl2 -no-ssl3  gcc:-m64 -fips
+#1387493681
+make depend
+#1387493687
+make clean
+#1387493715
+./config  -fips --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic   -no-ssl2 -no-ssl3  gcc:-m64 
+#1387493727
+make depend
+#1387493764
+make clean
+#1387493773
+./config  -fips --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl zlib-dynamic   -no-ssl2 -no-ssl3  
+#1387493971
+./config  -fips --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/etc/ssl --MANvyfuyfudfuyizlib-dynamic   -no-ssl2 -no-ssl3  
+#1387494062
+./config  -fips --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/etc/ssl   zlib-dynamic   -no-ssl2 -no-ssl3  
+#1387494075
+make depend
+#1387494101
+./config   --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/etc/ssl   zlib-dynamic   -no-ssl2 -no-ssl3  
+#1387494112
+make depend
+#1387494155
+make clean
+#1387494183
+./config   --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/Cellar/openssl/1.0.1e/etc/ssl   zlib-dynamic   -no-ssl2 -no-ssl3  
+#1387494189
+make depend
+#1387494269
+make
+#1387494576
+make clean
+#1387494623
+./config   --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/Cellar/openssl/1.0.1e/etc/ssl   zlib-dynamic   -no-ssl2 -no-ssl3  gcc:-fsip -m64
+#1387494651
+make depend
+#1387494695
+make all
+#1387494704
+make clean
+#1387494715
+bI openssl 
+#1387494856
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/openssl zlib-dynamic -DUSE_CRYPTODEV_DIGESTS linux-elf  gcc:-Os -w -pipe -march=core2 -msse4 -m32 -fips
+#1387494891
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/openssl zlib-dynamic -DUSE_CRYPTODEV_DIGESTS linux-x86_64 gcc:-Os -w -pipe -march=core2 -msse4 -m32 -fips
+#1387494907
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/openssl zlib-dynamic -DUSE_CRYPTODEV_DIGESTS  gcc:-Os -w -pipe -march=core2 -msse4 -m32 -fips
+#1387494921
+make all
+#1387494932
+make clean
+#1387494970
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/openssl zlib-dynamic -DUSE_CRYPTODEV_DIGESTS  no-ssl2 -no-ssl3   gcc:-Os -w -pipe -march=core2 -msse4 -m32 -fips
+#1387495004
+make depend
+#1387495030
+make clean
+#1387495061
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/openssl zlib-dynamic -DUSE_CRYPTODEV_DIGESTS  -no-ssl2 -no-ssl3   gcc:-Os -w -pipe -march=core2 -msse4 -m64 -fips
+#1387495070
+make depend
+#1387495081
+make all
+#1387495094
+make clean
+#1387495119
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/openssl zlib-dynamic  -no-ssl2 -no-ssl3   gcc:-Os -w -pipe -march=core2 -msse4 -m64 -fips
+#1387495138
+make depend
+#1387495155
+make all
+#1387495174
+make clean
+#1387495199
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/openssl zlib-dynamic  -no-ssl2 -no-ssl3   gcc: -march=core2 -msse4 -m64 -fips
+#1387495240
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/openssl zlib-dynamic  -DUSE_CRYPTODEV_DIGESTS  -no-ssl2 -no-ssl3   gcc: -march=core2 -msse4 -m64 -fips
+#1387495267
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/openssl zlib-dynamic  -DUSE_CRYPTODEV_DIGESTS  -no-ssl2 -no-ssl3  -march=core2 -msse4 -m64 -fips
+#1387495289
+make clean
+#1387495296
+make depend
+#1387495309
+make clean
+#1387495325
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/openssl zlib-dynamic  -DUSE_CRYPTODEV_DIGESTS  -no-ssl2 -no-ssl3  gcc:-march=core2 -msse4 -m64 -fips
+#1387495338
+make depend
+#1387495362
+make all
+#1387495374
+make clean
+#1387495379
+make disclean
+#1387495386
+make uninstall
+#1387495428
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/openssl zlib-dynami -no-ssl2 -no-ssl3  gcc:-march=core2 -msse4 -m64 -fips
+#1387495485
+./config  --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/Cellar/openssl/1.0.1e/openssl zlib-dynamic  -DUSE_CRYPTODEV_DIGESTS  -no-ssl2 -no-ssl3  gcc:-march=core2 -msse4 -m64 -fips
+#1387495511
+make disclean
+#1387495519
+make depend
+#1387495532
+make all
+#1387495625
+make clean
+#1387495875
+perl ./Configure --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic shared linux-x86_64-gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS -fPIC -fips
+#1387495911
+./config 
+#1387495933
+perl ./Configure --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic shared linux-x86_64 gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS -fPIC -fips
+#1387495998
+./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic shared linux-x86_64 gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS -fPIC -fips
+#1387496079
+./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic shared gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS -fPIC -fips
+#1387496106
+./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS -fPIC -fips
+#1387496113
+make clean
+#1387496121
+./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic shared gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS -fPIC -fips
+#1387496164
+./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic shared gcc:-m64 -DUSE_CRYPTODEV_DIGESTS -fPIC -fips
+#1387496221
+./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  gcc:-m64 -DUSE_CRYPTODEV_DIGESTS -fPIC -fips
+#1387496230
+make all
+#1387496238
+make clean
+#1387496289
+./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  gcc:-m64 -DUSE_CRYPTODEV_DIGESTS -fips
+#1387496298
+make all
+#1387496334
+./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  gcc: -m64 -DUSE_CRYPTODEV_DIGESTS -fips
+#1387496350
+make clean
+#1387496357
+./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  gcc: -m64 -DUSE_CRYPTODEV_DIGESTS -fips
+#1387496384
+./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  gcc:-DUSE_CRYPTODEV_DIGESTS -fips
+#1387496399
+make 
+#1387496417
+make clean
+#1387496479
+./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic   linux-x86_64-gcc:-m64 -DUSE_CRYPTODEV_DIGESTS -fips
+#1387496492
+make
+#1387496571
+make clean
+#1387496588
+./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic   linux-x86_64-gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS -fPIC -fips
+#1387496620
+./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic   linux-x86_64 gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS -fPIC -fips
+#1387496640
+./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic   gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS -fPIC -fips
+#1387496651
+make clean
+#1387496686
+pel ./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic   linux-x86_64 gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS -fPIC
+#1387496694
+perl ./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic   linux-x86_64 gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS -fPIC
+#1387496712
+perl ./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS -fPIC
+#1387496734
+perl ./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  gcc:-arch=x86_64 -DUSE_CRYPTODEV_DIGESTS -fPIC
+#1387496757
+make all
+#1387496766
+make clean
+#1387496847
+./configure  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  CC="gcc -arch=x86_64 -DUSE_CRYPTODEV_DIGESTS -fPIC"
+#1387496868
+./Configure  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  CC="gcc -arch=x86_64 -DUSE_CRYPTODEV_DIGESTS -fPIC"
+#1387496925
+make
+#1387496942
+make clean
+#1387496964
+./cconfig  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  CC="gcc -arch=x86_64 -DUSE_CRYPTODEV_DIGESTS -fPIC"
+#1387496973
+./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  CC="gcc -arch=x86_64 -DUSE_CRYPTODEV_DIGESTS -fPIC"
+#1387497004
+./config  --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  gcc: -arch=x86_64 -DUSE_CRYPTODEV_DIGESTS -fPIC
+#1387497051
+./config  -fPIC --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  gcc:-arch=x86_64 -DUSE_CRYPTODEV_DIGESTS 
+#1387497070
+make
+#1387497085
+make clean
+#1387497101
+./config  -fPIC --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS 
+#1387497123
+./config  -fPIC --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS  -m64
+#1387497140
+make clean
+#1387497151
+./config  -fPIC --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS  -m64
+#1387497206
+./config  -fPIC --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic linux-elf  gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS  -m64
+#1387497221
+make clean
+#1387497229
+./config  -fPIC --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic linux-elf  gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS  -m64
+#1387497248
+./config  -fPIC --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic linux-elf-gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS  -m64
+#1387497261
+./config  -fPIC --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic linux-elf gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS  -m64
+#1387497288
+./config  -fSIP --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic linux-elf gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS  -m64
+#1387497302
+./config  -fSIP --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  gcc:-arch x86_64 -DUSE_CRYPTODEV_DIGESTS  -m64
+#1387497316
+./config  -fSIP --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  gcc: -DUSE_CRYPTODEV_DIGESTS  -m64
+#1387497324
+./config  -fSIP --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  gcc:-DUSE_CRYPTODEV_DIGESTS  -m64
+#1387497331
+make
+#1387497401
+./config  -fSIP --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic  -DUSE_CRYPTODEV_DIGESTS  gcc:-m64
+#1387497406
+make
+#1387497583
+make clean
+#1387497672
+./config  -no-ssl2 -no-ssl3 --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl -fisp
+#1387497715
+make depend
+#1387497734
+openssl version
+#1387497761
+make clean
+#1387497866
+./config  -no-ssl2 -no-ssl3 --prefix=/home7/tvctopin/Caller/openssl/1.0.1e --openssldir=/home7/tvctopin/etc/openssl 
+#1387497937
+make depend
+#1387498132
+make all
+#1387498218
+make
+#1387498544
+make clean
+#1387498599
+export CFLAGS="-fPIC"
+#1387498674
+./config  -no-ssl2 -no-ssl3 --prefix=/home7/tvctopin/Caller/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl 
+#1387498689
+make depend
+#1387498782
+make && make test
+#1387509683
+make install
+#1387509832
+brew link openssl --force
+#1387509892
+onfig  -no-ssl2 -no-ssl3 --prefix=/home7/tvctopin/Caller/openssl/1.0.1e --openssldir=/home7/tvctopin/ssl ls 
+#1387509907
+ls /home7/tvctopin/Caller/openssl/1.0.1e
+#1387509917
+ls /home7/tvctopin/Caller/openssl/1.0.1e/bin
+#1387509934
+ls /home7/tvctopin/Caller/openssl/1.0.1e/lib
+#1387509951
+ls /home7/tvctopin/Caller/openssl/1.0.1e/lib/engines/
+#1387509995
+ls /home7/tvctopin/Caller/openssl/1.0.1e/include/
+#1387510038
+ls /home7/tvctopin/Caller/openssl/1.0.1e/include/openssl/
+#1387510069
+brew link openssl
+#1387510190
+mv /home7/tvctopin/.linuxbrew/Library/Formula/openssl.rb /home7/tvctopin/.linuxbrew/Library/Formula/openssl.rb_bk
+#1387510198
+brew link openssl
+#1387510322
+mv /home7/tvctopin/Caller/openssl  /home7/tvctopin/Cellar/openssl
+#1387510330
+brew link openssl
+#1387510371
+wH openssl
+#1387510389
+~/bin/openssl version
+#1387510424
+wget http://ftp.de.debian.org/debian/pool/main/o/openssl/openssl_1.0.1e-2.dsc
+#1387510436
+exit
+#1387510531
+cd sources/
+#1387510540
+cd openssl-1.0.1e/
+#1387510570
+ls
+#1387510583
+bR openssl
+#1387510601
+make uninstall
+#1387510609
+make disclean
+#1387510616
+make clean
+#1387510630
+./configure
+#1387510635
+./Configure
+#1387510734
+./Configure linux-x86_64
+#1387511362
+./Configure --help
+#1387511386
+ls
+#1387511428
+./Configure linux-x86_64 --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/etc/openssl --MANDIR=/home7/tvctopin/Cellar/openssl/1.0.1e/share/man --MANSUFFIX=ssl shared zlib-dynamic CC=gcc -fsip
+#1387511456
+perl ./Configure linux-x86_64 --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/etc/openssl --MANDIR=/home7/tvctopin/Cellar/openssl/1.0.1e/share/man --MANSUFFIX=ssl shared zlib-dynamic CC=gcc -fsip
+#1387511474
+perl ./Configure linux-x86_64 --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/etc/openssl  shared zlib-dynamic CC=gcc -fsip
+#1387511489
+perl ./Configure linux-x86_64 --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/etc/openssl  shared zlib-dynamic  -fsip
+#1387511572
+make
+#1387511617
+openssl version
+#1387511627
+make clean
+#1387511662
+perl ./Configure linux-x86_64 --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/etc/openssl  shared zlib-dynamic  -fips
+#1387511681
+make
+#1387511709
+make clean
+#1387511751
+export CFLAGS="-fips"
+#1387511763
+perl ./Configure linux-x86_64 --prefix=/home7/tvctopin/Cellar/openssl/1.0.1e --openssldir=/home7/tvctopin/etc/openssl  shared zlib-dynamic 
+#1387511793
+make
+#1387511939
+make test
+#1387512034
+make install
+#1387512139
+make install --MANDIR=/home7/tvctopin/Cellar/openssl/1.0.1e/share/man --MANSUFFIX=ssl
+#1387512197
+make install MANDIR=/home7/tvctopin/Cellar/openssl/1.0.1e/share/man MANSUFFIX=ssl
+#1387512304
+brew link openssl
+#1387512323
+wH openssl
+#1387512330
+openssl version
+#1387512341
+wget http://ftp.de.debian.org/debian/pool/main/o/openssl/openssl_1.0.1e-2.dsc
+#1387512462
+cd
+#1387512464
+ls
+#1387512476
+ls ssl
+#1387512490
+ls lib
+#1387512522
+ls lib/libssl*
+#1387512618
+bU && bC
+#1387512791
+brew --env
+#1387512805
+brew doctor
+#1387513302
+bFF gnu-tar
+#1387513315
+export EDITOR=rmate
+#1387513321
+bE gnu-tar
+#1387513450
+bI gnu-tar
+#1387514056
+wH tar
+#1387514064
+wH gtar
+#1387514073
+lS ~/bin/gtar
+#1387514079
+bE gnu-tar
+#1387514105
+bR gnu-tar
+#1387514111
+bI gnu-tar
+#1387514369
+wH gtar
+#1387514375
+wH tar
+#1387514382
+tar -v
+#1387514403
+tar --version
+#1387514451
+bFF libiconv
+#1387514462
+bI liniconv 
+#1387514477
+bI libiconv 
+#1387514697
+bR libiconv
+#1387514706
+bFF glibc
+#1387514725
+bRL glibc
+#1387514773
+bI glibc -i
+#1387514789
+bR glibc
+#1387514800
+tar -v
+#1387514813
+bR gnu-tar
+#1387514821
+bI gnu-tar
+#1387515099
+tar -v
+#1387515115
+tar --version
+#1387515150
+bFF gettext
+#1387515172
+bI libiconv 
+#1387515336
+bFF freetpre
+#1387515344
+bFF freetype
+#1387515353
+bE freetype
+#1387515383
+bI freetype
+#1387515393
+bE freetype
+#1387515430
+bI freetype
+#1387515527
+bFF linpng
+#1387515532
+bFF libpng
+#1387515540
+bE libpng
+#1387515594
+bR libpng
+#1387515598
+bI libpng
+#1387515678
+bE freetype
+#1387515697
+bI freetype
+#1387515705
+bE freetype
+#1387515741
+bE gnu-units
+#1387515751
+bE binutils
+#1387515760
+bE freetype
+#1387515781
+bI freetype
+#1387515881
+bFF curl
+#1387515889
+bE curl
+#1387515967
+bI curl --with-ares --with-darwinssl --with-gssapi --with-libmetalink --with-ssh --with-ssl
+#1387531500
+bU
+#1387531535
+bI curl --with-ares --with-darwinssl --with-gssapi --with-libmetalink --with-ssh --with-ssl
+#1387531558
+export EDITOR=rmate
+#1387531595
+mv /home7/tvctopin/.linuxbrew/Library/Formula/openssl.rb_bk /home7/tvctopin/.linuxbrew/Library/Formula/openssl.rb
+#1387531605
+bE openssl
+#1387532097
+bI curl --with-ares --with-darwinssl --with-gssapi --with-libmetalink --with-ssh --with-ssl
+#1387532368
+bS md5
+#1387532377
+bFF md5sha1sum
+#1387532389
+bR md5sha1sum
+#1387532400
+bE md5sha1sum
+#1387532420
+bI md5sha1sum
+#1387532488
+echo $SSLLIBPATH
+#1387532591
+export SSLLIBPATH=/home7/tvctopin/opt/openssl/lib
+#1387532595
+echo $SSLLIBPATH
+#1387532602
+bI md5sha1sum
+#1387532625
+bS md5
+#1387532654
+bFF md5deep
+#1387532662
+bR md5deep
+#1387532667
+bE md5deep
+#1387532705
+bI md5deep
+#1387532780
+brew deps openssl
+#1387532792
+brew deps help
+#1387532803
+brew deps --help
+#1387532809
+brew deps -help
+#1387532825
+brew help
+#1387532851
+brew help deps
+#1387532868
+brew man
+#1387532888
+gem install ronn --USER
+#1387532971
+brew man
+#1387532993
+man brew
+#1387533130
+brew deps openssl --all
+#1387533175
+brew deps openssl --installed
+#1387533188
+bR curl-ca-bundle
+#1387533195
+bE curl-ca-bundle
+#1387533215
+bI curl-ca-bundle
+#1387533251
+brew deps openssl --installed
+#1387533383
+brew deps  --tree openssl
+#1387533398
+brew deps  --list openssl
+#1387533406
+brew deps  --all openssl
+#1387533437
+brew deps  --all openssl | grep openssl
+#1387533490
+bR wget
+#1387533496
+bE wget
+#1387533645
+bF wget
+#1387533660
+bFF wget
+#1387533680
+bI wget --HEAD --enable-debug --enable-iri
+#1387533742
+bI wget --enable-debug --enable-iri
+#1387533841
+wget -v
+#1387533850
+wget --version
+#1387533903
+bFF curl
+#1387533984
+bI curl --with-ares --with-darwinssl -with-gssapi --with-libmetalink --with-ssh --with-ssl
+#1387534250
+ls /home7/tvctopin/lib/libcrypto
+#1387534253
+ls /home7/tvctopin/lib/libcrypto*
+#1387534262
+lS /home7/tvctopin/lib/libcrypto*
+#1387534291
+bE curl
+#1387534408
+bI curl --with-ares  -with-gssapi --with-libmetalink --with-ssh --with-ssl
+#1387534422
+bI curl --with-ares  --with-gssapi --with-libmetalink --with-ssh --with-ssl
+#1387534670
+bI curl --with-ares --with-darwinssl -with-gssapi --with-libmetalink --with-ssh
+#1387534818
+bI curl --with-ares  -with-gssapi --with-libmetalink --with-ssh
+#1387534831
+bI curl --with-ares  --with-gssapi --with-libmetalink --with-ssh
+#1387535033
+bR openssl
+#1387535056
+bFF openssl
+#1387535071
+bI openssl
+#1387535465
+bE openssl
+#1387535594
+bI openssl
+#1387535697
+bE openssl
+#1387535770
+bI openssl
+#1387535849
+bE openssl
+#1387535877
+bI openssl
+#1387536385
+bE openssl
+#1387536550
+bI openssl
+#1387537194
+bI openssl 
+#1387537762
+bE openssl 
+#1387537799
+bI openssl 
+#1387538305
+bE openssl 
+#1387538346
+bI openssl 
+#1387539159
+openssl version
+#1387539734
+bU
+#1387539775
+bC
+#1387542388
+ls
+#1387542405
+build.rb
+#1387542417
+ruby build.rb
+#1387542473
+bFF wget
+#1387542490
+brew deps  --all openssl | grep openssl
+#1387540109
+bFF mc
+#1387540116
+bF s-lang
+#1387540148
+bI s-lang
+#1387540167
+export EDITOR=rmate
+#1387540173
+bE s-lang
+#1387540221
+bI s-lang
+#1387540247
+bE s-lang
+#1387540304
+bI s-lang
+#1387540316
+bE binutils
+#1387540332
+bI s-lang
+#1387540336
+bE binutils
+#1387540367
+bE s-lang
+#1387540420
+bI s-lang
+#1387540571
+bFF mc
+#1387540583
+bI mc 
+#1387540906
+mcview
+#1387540917
+mc -h
+#1387540930
+mc
+#1387541131
+bI openssl 
+#1387541149
+bI curl --with-ares --with-darwinssl -with-gssapi --with-libmetalink --with-ssh --with-ssl
+#1387541316
+bS metalink
+#1387541321
+bR metalink
+#1387541326
+bR libmetalink
+#1387541331
+bFF libmetalink
+#1387541345
+bI libmetalink
+#1387541410
+bI curl --with-ares --with-darwinssl -with-gssapi --with-libmetalink --with-ssh --with-ssl
+#1387541599
+bI curl --with-ares --with-darwinssl -with-gssapi --with-ssh --with-ssl
+#1387541831
+curl -v
+#1387541838
+curl --version
+#1387541852
+curl --help
+#1387541863
+curl-config
+#1387541876
+curl-config --built-shared
+#1387541888
+curl-config --ca
+#1387541903
+curl-config --ca /certs/ca-bundle.crt
+#1387541912
+curl-config --ca=/certs/ca-bundle.crt
+#1387541938
+curl-config --checkfor 
+#1387541961
+curl-config --configure
+#1387541985
+curl-config -features
+#1387541989
+curl-config --features
+#1387542010
+curl-config --protocols
+#1387542047
+curl -i https://api.github.com/users/sennychu
+#1387542060
+bS curl
+#1387542069
+bFF curl-ca-bundle
+#1387542076
+export SSL_CERT_FILE=/home7/tvctopin/opt/curl-ca-bundle/share/ca-bundle.crt
+#1387542084
+bFF curlftpfs
+#1387542091
+bFF fuse4x
+#1387542101
+bFF fuse4x-kext
+#1387542108
+bI fuse4x-kext
+#1387542141
+unset CURLOPT_SSL_VERIFYHOST
+#1387542144
+bI fuse4x-kext
+#1387542164
+set CURLOPT_SSL_VERIFYHOST=0
+#1387542166
+bI fuse4x-kext
+#1387542204
+curl -f ttps://github.com/fuse4x/kext/archive/fuse4x_0_9_2.tar.gz -C 0 -o /home7/tvctopin/src/fuse4x-kext-0.9.2.tar.gz.incomplete --insecure
+#1387542221
+curl -f https://github.com/fuse4x/kext/archive/fuse4x_0_9_2.tar.gz -C 0 -o /home7/tvctopin/src/fuse4x-kext-0.9.2.tar.gz.incomplete --insecure
+#1387542232
+bI fuse4x-kext
+#1387542249
+curl -f https://github.com/fuse4x/kext/archive/fuse4x_0_9_2.tar.gz -C 0 -o /home7/tvctopin/src/fuse4x-kext-0.9.2.tar.gz
+#1387542252
+bI fuse4x-kext
+#1387542267
+curl  https://github.com/fuse4x/kext/archive/fuse4x_0_9_2.tar.gz -C 0 -o /home7/tvctopin/src/fuse4x-kext-0.9.2.tar.gz
+#1387542270
+bI fuse4x-kext
+#1387542286
+wget https://github.com/fuse4x/kext/archive/fuse4x_0_9_2.tar.gz
+#1387542309
+mv fuse4x_0_9_2.tar.gz /home7/tvctopin/src/fuse4x-kext-0.9.2.tar.gz
+#1387542316
+bI fuse4x-kext
+#1387542336
+bE fuse4x-kext
+#1387542369
+bI fuse4x-kext
+#1387542384
+bI fuse4x-kext -i
+#1387542890
+bS notify
+#1387542899
+notify
+#1387542912
+bS growl
+#1387542920
+bFF  growly
+#1387542926
+growly
+#1387542938
+growly --title ttt
+#1387542948
+growly --title "ttt"
+#1387543014
+growly -v
+#1387543041
+growly 
+#1387543104
+bS message
+#1387543112
+bS mess
+#1387543118
+bS mes
+#1387543131
+bS log
+#1387543149
+bFF daemonlogger
+#1387543157
+bFF libdnet
+#1387543167
+bI libdnet --with-python
+#1387543177
+bE curl
+#1387543233
+brew unlink curl
+#1387543243
+bI libdnet --with-python
+#1387543304
+bR m4
+#1387543314
+bR autoconf
+#1387543322
+bE autoconf
+#1387543335
+export EDITOR=rmate
+#1387543337
+bE autoconf
+#1387543360
+exit
+#1387543412
+wget http://ftp.de.debian.org/debian/pool/main/libn/libnotify/libnotify_0.5.0.orig.tar.bz2
+#1387543428
+brew create http://ftp.de.debian.org/debian/pool/main/libn/libnotify/libnotify_0.5.0.orig.tar.bz2
+#1387543442
+export EDITOR=rmate
+#1387543455
+bE autoconf
+#1387543499
+bI autoconf
+#1387543634
+export EDITOR=rmate
+#1387543640
+bE autoconf
+#1387543648
+pS
+#1387543652
+pS ssh
+#1387543659
+ps
+#1387543672
+exit
+#1387543727
+ls
+#1387543738
+cat INSTALL
+#1387544451
+configure --help
+#1387544453
+./configure --help
+#1387544659
+exit
+#1387544863
+ls
+#1387544913
+bE autoconf
+#1387545282
+exit
+#1387545342
+./configure --prefix=/home7/tvctopin/Cellar/autoconf/2.69 --build=x86_64-redhot-linux-gnu --config-cache --sysconfdir=/home7/tvctopin/Cellar/autoconf/2.69/etc --with-lispdir --with-gettext
+#1387545351
+./configure --help
+#1387545394
+./configure --prefix=/home7/tvctopin/Cellar/autoconf/2.69 --build=x86_64-redhot-linux-gnu --config-cache --sysconfdir=/home7/tvctopin/Cellar/autoconf/2.69/etc --with-lispdir --with-m4
+#1387545407
+./configure --help
+#1387545442
+./configure --prefix=/home7/tvctopin/Cellar/autoconf/2.69 --build=x86_64-redhot-linux-gnu --config-cache --sysconfdir=/home7/tvctopin/Cellar/autoconf/2.69/etc --with-lispdir --with-PACKAGE=yes
+#1387545454
+./configure --prefix=/home7/tvctopin/Cellar/autoconf/2.69 --build=x86_64-redhot-linux-gnu --config-cache --sysconfdir=/home7/tvctopin/Cellar/autoconf/2.69/etc --with-lispdir --with-gettext=yes
+#1387545470
+brew unpack gettext
+#1387545489
+ls
+#1387545505
+mv gettext-0.18.3.1 gettext
+#1387545518
+./configure --prefix=/home7/tvctopin/Cellar/autoconf/2.69 --build=x86_64-redhot-linux-gnu --config-cache --sysconfdir=/home7/tvctopin/Cellar/autoconf/2.69/etc --with-lispdir --with-gettext=yes
+#1387545540
+cat INSTALL
+#1387545622
+cat README 
+#1387545762
+ls
+#1387545780
+ls build-aux
+#1387545844
+./configure --prefix=/home7/tvctopin/Cellar/autoconf/2.69 --build=x86_64-redhot-linux-gnu --config-cache --sysconfdir=/home7/tvctopin/Cellar/autoconf/2.69/etc --with-lispdir --enable-gettext
+#1387545855
+./configure --prefix=/home7/tvctopin/Cellar/autoconf/2.69 --build=x86_64-redhot-linux-gnu --config-cache --sysconfdir=/home7/tvctopin/Cellar/autoconf/2.69/etc --with-lispdir --enable-m4
+#1387546295
+exit
+#1387543706
+export EDITOR=rmate
+#1387543712
+bE autoconf
+#1387543724
+bI autoconf -i
+#1387544729
+bR autoconf
+#1387544734
+bI autoconf
+#1387544831
+autoconf -v
+#1387544840
+autoconf --version
+#1387544850
+bI autoconf -i
+#1387544857
+bR autoconf
+#1387544860
+bI autoconf -i
+#1387545292
+bI autoconf 
+#1387545331
+bI autoconf -i
+#1387546311
+bE autoconf
+#1387546487
+bI autoconf 
+#1387546782
+bE autoconf
+#1387546855
+bR automake
+#1387546862
+bR autoconf
+#1387546867
+bR m4
+#1387546875
+bI autoconf 
+#1387547423
+screen -r
+#1387547475
+screen -wipe
+#1387547481
+screen -r
+#1387547485
+screen 
+#1387548760
+screen -r
+#1387548986
+rmate .screenrc
+#1387549334
+rmate .screenrc-proj-split
+#1387549379
+rmate .screenrc-mail-example
+#1387549404
+rmate .screenrc-proj
+#1387549759
+rmate .screenrc-proj-split
+#1387549800
+rmate .screenrc-proj
+#1387549870
+rmate .screenrc-mail-example
+#1387549950
+rmate .screenrc
+#1387550077
+screen -ls
+#1387547502
+bI autoconf
+#1387550922
+exit
+#1387550959
+ls
+#1387551010
+rmate .
+#1387551017
+exit
+#1387551218
+ls
+#1387551222
+exit
+#1387550331
+rmate .screenrc
+#1387550408
+termcap  xterm 'AF=\E[3%dm:AB=\E[4%dm'
+#1387550526
+rmate .bashrc
+#1387550870
+screen -ls
+#1387550878
+screen -r
+#1387550932
+screen
+#1387551026
+ls
+#1387551136
+rmate .screenrc
+#1387551187
+screen
+#1387551525
+rmate .bashrc
+#1387551627
+$HOME/.ssh/.environment.`hostname`
+#1387551677
+exit
+#1387551706
+export
+#1387551867
+rmate .bashrc
+#1387552000
+rmate .screenrc
+#1387553032
+screen
+#1387554241
+ls
+#1387554251
+rmate .screenrc
+#1387554305
+rmate .bashrc
+#1387554382
+exit
+#1387554891
+ls
+#1387554923
+exit
+#1387554447
+screen -xR
+#1387554512
+rmate .screenrc
+#1387554658
+screen -xR
+#1387554679
+rmate .screenrc
+#1387554738
+screen -ls
+#1387554759
+screen -d
+#1387554764
+screen -ls
+#1387554768
+screen -D
+#1387554771
+screen -ls
+#1387554775
+screen -d
+#1387554783
+screen -h
+#1387554862
+screen -wipe
+#1387554867
+screen -ls
+#1387554881
+screen -R
+#1387554927
+screen -ls
+#1387554951
+screen -r
+#1387554963
+screen -ls
+#1387555221
+screen -S devSSH -t "Dev SSH Screen"
+#1387555433
+exit
+#1387555361
+screen -ls
+#1387555376
+screen -wipe
+#1387555385
+screen -ls
+#1387555399
+screen -d 26861.pts-0.box571
+#1387555403
+screen -ls
+#1387555415
+screen -D 26861.pts-0.box571
+#1387555418
+screen -ls
+#1387555424
+screen -q
+#1387555436
+screen -ls
+#1387555442
+screen -r
+#1387555459
+screen -wipe
+#1387555463
+screen -ls
+#1387555475
+exit
+#1387555708
+lS
+#1387555732
+rmate .bashrc
+#1387556205
+exit
+#1387556256
+ls
+#1387556266
+rmate .bashrc
+#1387556400
+exit
+#1387556473
+ls
+#1387556481
+rmate .bashrc
+#1387556580
+exi
+#1387556582
+exit
+#1387556611
+rmate .bashrc
+#1387556682
+exit
+#1387556757
+rmate .bashrc
+#1387556779
+rmate .bashrc -p 52700
+#1387556846
+rmate .bashrc 
+#1387558010
+netstat -vatn
+#1387559186
+exit
+#1387560642
+lS
+#1387560666
+mv .screenrc-mail-example /home7/tvctopin/.linuxdot/
+#1387560686
+mv .screenrc-proj /home7/tvctopin/.linuxdot/
+#1387560698
+mv .screenrc-proj-split /home7/tvctopin/.linuxdot/
+#1387560720
+mv libnotify_0.5.0.orig.tar.bz2 sources/
+#1387560722
+lS
+#1387560908
+ls
+#1387560956
+cat screen.log
+#1387560973
+ls
+#1387560993
+cd sources/
+#1387560995
+ls
+#1387561021
+rm openssl-46ebd9e 
+#1387561025
+rM openssl-46ebd9e 
+#1387561031
+rM openssl-1.0.1e
+#1387561067
+ls
+#1387561155
+uB libnotify_0.5.0.orig.tar.bz2 
+#1387561167
+exit
+#1387561202
+cd sources/ &&  uB libnotify_0.5.0.orig.tar.bz2 
+#1387561261
+hS bcat
+#1387561305
+cat .funCTIONS
+#1387561312
+cat .functions
+#1387561316
+cd
+#1387561321
+cat .functions 
+#1387561382
+alias bZ="bzcat $@ | tar -xf - "
+#1387561390
+cd sources/
+#1387561405
+bZ libnotify_0.5.0.orig.tar.bz2
+#1387561426
+cd libnotify-0.5.0/
+#1387561428
+ls
+#1387561431
+lS
+#1387561433
+ls
+#1387561439
+cat INSTALL
+#1387562660
+ls
+#1387562666
+cat README 
+#1387562733
+ls
+#1387562751
+cat INSTALL
+#1387563082
+./configure --help
+#1387563317
+ls
+#1387563334
+./bootstrap.sh
+#1387563433
+ls
+#1387563457
+cat HACKING
+#1387563526
+exit
+#1387561486
+ls
+#1387561489
+cd sources/
+#1387561493
+cd libnotify-0.5.0/
+#1387561495
+ls
+#1387561497
+cat INSTALL
+#1387561520
+cat README 
+#1387561524
+ls
+#1387561531
+cat README 
+#1387561540
+nano README 
+#1387561553
+cat missing 
+#1387561574
+./autogen.sh
+#1387561597
+bFF  gnome-common
+#1387561607
+bI gnome-common
+#1387561630
+alias sudo="echo sudo"
+#1387561642
+bFF autoconf
+#1387561652
+bI autoconf
+#1387561718
+bE autoconf
+#1387561749
+bI autoconf
+#1387561786
+autoconf -v
+#1387561830
+autoconf --version
+#1387561852
+export EDITOR=rmate
+#1387561870
+bE automake
+#1387561946
+..
+#1387561947
+ls
+#1387562132
+wH aclocal
+#1387562222
+cat bzip2-1.0.6-install_docs-1.patch
+#1387562232
+cat automake-1.14-test-1.patch
+#1387562650
+bI automake -i
+#1387563556
+bFF automake
+#1387563567
+bI automake
+#1387563825
+lS /home7/tvctopin/share/config.site
+#1387563855
+lS ~/opt/autoconf/share
+#1387563864
+lS ~/opt/autoconf/share/autoconf/
+#1387564067
+ls ~/etc/config.site
+#1387564075
+rmate ~/etc/config.site
+#1387564110
+export CONFIG_SITE=/home7/tvctopin/etc/config.site
+#1387564154
+export CPU-COMPANY-SYSTEM="x86_64-redhot-linux-gnu"
+#1387564182
+export CPU-COMPANY-SYSTEM=x86_64-redhot-linux-gnu
+#1387564274
+export BUILD_SYSTEM="x86_64-redhot-linux-gnu"
+#1387564296
+bI automake
+#1387564340
+bFF pdksh
+#1387564345
+bI pdksh
+#1387564429
+ls
+#1387564437
+ls ~/etc/config.site
+#1387564443
+cat /home7/tvctopin/etc/config.site
+#1387566466
+rmate /home7/tvctopin/etc/config.site
+#1387566496
+exit
+#1387566599
+rmate /home7/tvctopin/etc/config.site
+#1387566674
+exit
+#1387566712
+rmate /home7/tvctopin/etc/config.site
+#1387566725
+exit
+#1387566800
+rmate /home7/tvctopin/etc/config.site
+#1387566830
+brew --env
+#1387567161
+export EDITOR=rmate
+#1387567169
+bE automake
+#1387567287
+bI automake
+#1387567336
+rmate .exports 
+#1387567378
+export CONFIG_SITE="/home7/tvctopin/etc/config.site"
+#1387567384
+bI automake
+#1387567409
+rmate .exports 
+#1387567423
+rmate /home7/tvctopin/etc/config.site
+#1387567550
+bI automake
+#1387567610
+rmate /home7/tvctopin/etc/config.site
+#1387567869
+bI automake
+#1387567907
+rmate /home7/tvctopin/etc/config.site
+#1387567953
+bI automake
+#1387568157
+rmate /home7/tvctopin/etc/config.site
+#1387568215
+bE automake
+#1387568373
+bI automake
+#1387568382
+bE automake
+#1387568401
+bI automake
+#1387568451
+bE automake
+#1387568484
+bI automake
+#1387568496
+bR automake
+#1387568500
+bI automake
+#1387568522
+rmate /home7/tvctopin/etc/config.site
+#1387568577
+bI automake
+#1387568590
+bR automake
+#1387568598
+rmate /home7/tvctopin/etc/config.site
+#1387568792
+bI automake
+#1387570314
+lS share/autoconf
+#1387570323
+lS share/autoconf/
+#1387588105
+bI automake
+#1387588127
+export EDITOR=rmate
+#1387588159
+bE require 'formula'
+#1387588160
+class Ncurses < Formula
+#1387588160
+#  keg_only :provided_by_osx
+#1387588161
+end
+#1387588174
+bE ncurses
+#1387588222
+exit
+#1387588263
+export EDITOR=rmate
+#1387588268
+rmate /home7/tvctopin/etc/config.site
+#1387588273
+exit
+#1387588296
+export EDITOR=rmate
+#1387588301
+rmate /home7/tvctopin/etc/config.site
+#1387588310
+bE ncurses
+#1387588331
+exit
+#1387588395
+rmate /home7/tvctopin/etc/config.site
+#1387588426
+pS ssh
+#1387588459
+exit
+#1387569095
+rmate /home7/tvctopin/etc/config.site
+#1387569435
+bI automake
+#1387569922
+rmate /home7/tvctopin/etc/config.site
+#1387570013
+bI automake
+#1387570027
+rmate /home7/tvctopin/etc/config.site
+#1387570148
+bI automake
+#1387570224
+brew unpack autoconf
+#1387570232
+cd autoconf-2.69/
+#1387570262
+fD config.site
+#1387570344
+ls
+#1387570372
+rmate configure
+#1387570803
+brew --env
+#1387571540
+rmate /home7/tvctopin/etc/config.site
+#1387571632
+bI automake
+#1387571681
+rmate /home7/tvctopin/etc/config.site
+#1387571753
+bI automake
+#1387571772
+rmate /home7/tvctopin/etc/config.site
+#1387571799
+bI automake
+#1387571856
+rmate /home7/tvctopin/etc/config.site
+#1387571886
+bI automake
+#1387571908
+rmate /home7/tvctopin/etc/config.site
+#1387571924
+bI automake
+#1387571959
+./configure --prefix=/home7/tvctopin/Cellar/automake/1.14 --enable-option-checking
+#1387571985
+rmate ./configure
+#1387572486
+rmate /home7/tvctopin/etc/config.site
+#1387573201
+bI automake
+#1387573265
+rmate /home7/tvctopin/etc/config.site
+#1387573302
+bI automake
+#1387573391
+rmate /home7/tvctopin/etc/config.site
+#1387573413
+bI automake
+#1387573484
+rmate /home7/tvctopin/etc/config.site
+#1387573516
+bI pdksh
+#1387573533
+brew link pdksh
+#1387573569
+bI pdksh
+#1387573665
+bFF gnu-tar libiconv gd libxml2
+#1387573696
+bI libxml2 --HEAD
+#1387574131
+rmate /home7/tvctopin/etc/config.site
+#1387574741
+bFF make
+#1387574750
+bE make
+#1387574807
+bI make
+#1387574815
+bR make
+#1387574820
+bI make
+#1387574871
+rmate /home7/tvctopin/etc/config.site
+#1387574948
+bS sh
+#1387574968
+bFF bash
+#1387574989
+bI bash --HEAD 
+#1387575023
+bI bash 
+#1387575142
+rmate /home7/tvctopin/etc/config.site
+#1387575177
+bI bash 
+#1387575424
+bFF dir
+#1387575430
+bS dir
+#1387575444
+bF dirac
+#1387575449
+bFF dirac
+#1387575485
+bI dirac
+#1387575682
+bFF dot gprof  valgrind 
+#1387575688
+bS dot
+#1387575705
+bFF dotwrp xdotool  gprof  valgrind 
+#1387575746
+bI dotwrp --HEAD
+#1387575770
+bI xdotool
+#1387575778
+bE xdotool
+#1387575791
+bFF valgrind
+#1387575799
+bI valgrind --HEAD
+#1387575816
+export EDITOR=rmate
+#1387575819
+bE valgrind
+#1387575900
+bI valgrind --HEAD
+#1387575934
+bI valgrind 
+#1387576285
+bFF wget
+#1387576290
+bFF git
+#1387576304
+bFF svn
+#1387576336
+bI svn --perl --ruby --with-brewed-openssl --with-python
+#1387576820
+bFF swig
+#1387576829
+bR swig
+#1387576836
+bFF pcre
+#1387576864
+bI swig 
+#1387577201
+svn -v
+#1387577210
+svn --version
+#1387577236
+bS ant
+#1387577244
+bFF ant
+#1387577248
+bE ant
+#1387577285
+bI ant
+#1387577322
+cd ;wget ttp://www.apache.org/dyn/closer.cgi?path=ant/binaries/apache-ant-1.9.2-bin.tar.gz
+#1387577336
+cd ;wget http://www.apache.org/dyn/closer.cgi?path=ant/binaries/apache-ant-1.9.2-bin.tar.gz
+#1387577362
+mv apache-ant-1.9.2-bin.tar.gz sources/
+#1387577391
+mv closer.cgi\?path\=ant%2Fbinaries%2Fapache-ant-1.9.2-bin.tar.gz apache-ant-1.9.2-bin.tar.gz
+#1387577394
+mv apache-ant-1.9.2-bin.tar.gz sources/
+#1387577400
+bI ant
+#1387577491
+mv  sources/apache-ant-1.9.2-bin.tar.gz sources/apache-ant-1.9.2.tar.gz 
+#1387577493
+bI ant
+#1387577522
+bS yodl2man
+#1387577531
+bS man
+#1387577551
+bFF gearman man2html  pixman
+#1387577600
+bI man2html
+#1387577607
+bE pixman
+#1387577654
+bI pixman
+#1387579573
+bS chicken
+#1387579579
+bFF chicken
+#1387579589
+bI chicken --HEAD
+#1387579663
+bI chicken 
+#1387579760
+bFF m4
+#1387579769
+bE m4
+#1387579797
+bI m4
+#1387579929
+bFF automake
+#1387579935
+bFF make
+#1387579945
+bS auto
+#1387579960
+bFF autoconf-archive 
+#1387579971
+bFF automoc4
+#1387579980
+bE automoc4
+#1387580015
+bI automoc4
+#1387580054
+bFF qt
+#1387580086
+bI qt --developer --with-qt3support
+#1387584056
+z
+#1387584082
+ls
+#1387584088
+cd sources/
+#1387584090
+ls
+#1387584121
+fg
+#1387585540
+bFF node
+#1387585559
+bI node --HEAD --enable-debug --without-npm
+#1387591618
+fg
+#1387591631
+bE ncurses
+#1387591797
+exit
+#1387592823
+ls
+#1387592833
+cat INSTALL
+#1387591891
+bI ncurses
+#1387592308
+export EDITOR=rmate
+#1387592341
+bE ncurses
+#1387592457
+bI ncurses
+#1387592605
+rmate /home7/tvctopin/.linuxbrew/Library/Taps/homebrew-dupes/ncurses.rb
+#1387592663
+bI ncurses
+#1387592801
+rmate /home7/tvctopin/.linuxbrew/Library/Taps/homebrew-dupes/ncurses.rb
+#1387592819
+bI ncurses -i
+#1387584158
+cd sources/
+#1387584160
+ls
+#1387584188
+uG jdk-7u45-linux-x64.tar.gz
+#1387584222
+cd jdk1.7.0_45
+#1387584224
+ls
+#1387584238
+cat README.html 
+#1387584249
+cat README 
+#1387584269
+unzip src.zip
+#1387584287
+cd javava
+#1387584297
+cd java
+#1387584298
+ls
+#1387584313
+..
+#1387584314
+ls
+#1387584352
+..
+#1387584365
+uG jre-7u45-linux-x64.tar.gz 
+#1387584388
+cd jre1.7.0_45
+#1387584389
+ls
+#1387584397
+cat README
+#1387584424
+cat THIRDPARTYLICENSEREADME.txt
+#1387584573
+ls
+#1387584580
+ls bin
+#1387584611
+find java_home
+#1387584636
+ls lib
+#1387584657
+ls
+#1387584664
+ls plugin
+#1387584670
+ls bin
+#1387584678
+ls bin/java
+#1387584682
+ls bin/java -v
+#1387584702
+ls bin/java_vm
+#1387584720
+bin/java_vm -v
+#1387584752
+echo $JAVA_HOME
+#1387584824
+ls
+#1387584829
+..
+#1387584840
+cd jdk1.7.0_45/
+#1387584842
+ls
+#1387584876
+rM java
+#1387584887
+..
+#1387585016
+mv /home7/tvctopin/sources/jdk1.7.0_45 ~/Library/Java/JavaVirtualMachines/jdk1.7.0_45
+#1387585033
+mkdir /home7/tvctopin/Library/Java/JavaVirtualMachines/jdk1.7.0_4
+#1387585047
+mkdir  -p /home7/tvctopin/Library/Java/JavaVirtualMachines/
+#1387585053
+mv /home7/tvctopin/sources/jdk1.7.0_45 ~/Library/Java/JavaVirtualMachines/jdk1.7.0_45
+#1387585088
+export JAVA_HOME=/home7/tvctopin/Library/Java/JavaVirtualMachines/jdk1.7.0_45
+#1387585092
+ls
+#1387585106
+cd $JAVA_HOME
+#1387585108
+ls
+#1387585161
+bin/java_vm -v
+#1387585179
+ls bin
+#1387585245
+bin/java -v
+#1387585264
+bin/java 
+#1387585276
+find vm
+#1387585299
+find . -name  vm
+#1387585305
+find . -name  VM
+#1387585307
+ls
+#1387585314
+ls jre
+#1387585323
+ls jre/bin
+#1387585365
+set JAVA_HOME=/home7/tvctopin/Library/Java/JavaVirtualMachines/jdk1.7.0_45
+#1387585378
+ls
+#1387585390
+jre/bin/java_vm 
+#1387585411
+jre/plugin
+#1387585415
+ls jre/plugin
+#1387585420
+ls jre/plugin/desktop/
+#1387585478
+set PLUGIN_HOME=/home7/tvctopin/Library/Java/JavaVirtualMachines/jdk1.7.0_45/jre/plugin
+#1387585485
+jre/bin/java_vm 
+#1387585635
+bFF ruby
+#1387585647
+bFF ruby1866
+#1387585653
+bFF ruby186
+#1387585683
+bI ruby186 --with-gdbm --with-tcltk 
+#1387585692
+bI ruby186 --with-gdbm 
+#1387585910
+bR ncurses
+#1387585919
+bFF ncurses
+#1387585925
+bE ncurses
+#1387585964
+bFF ncurses
+#1387585976
+bE ncurses
+#1387586010
+bI ncurses
+#1387587940
+bE ncurses
+#1387594021
+bFF ncurses
+#1387594024
+bF ncurses
+#1387594042
+bE ncurses 
+#1387594168
+bI ncurses 
+#1387594171
+bE ncurses 
+#1387594200
+bI ncurses 
+#1387594412
+bE ncurses 
+#1387594424
+bI ncurses 
+#1387594625
+bI node --HEAD --enable-debug 
+#1387594667
+bI node 
+#1387594674
+bI node --enable-debug 
+#1387595931
+bFF ruby186
+#1387595951
+bS tcl
+#1387595959
+bFF tcl-tk
+#1387595988
+bE tcl-tk
+#1387596018
+bI tcl-tk --enable-threads 
+#1387596062
+export JAVA_HOME=/home7/tvctopin/Library/Java/JavaVirtualMachines/jdk1.7.0_45
+#1387596075
+exit
+#1387595439
+export EDITOR=rmate
+#1387595450
+ls
+#1387595462
+rM autoconf-2.69
+#1387595473
+ls Library
+#1387595475
+ls
+#1387595553
+export JAVA_HOME=Library/Java/JavaVirtualMachines/jdk1.7.0_45
+#1387595575
+export JAVA_HOME=/home7/tvctopin/Library/Java/JavaVirtualMachines/jdk1.7.0_45
+#1387595613
+rmate .bashrc
+#1387595653
+nano .bashrc
+#1387595809
+export CONFIG_SITE="/home7/tvctopin/etc/config.site"
+#1387595811
+nano .bashrc
+#1387595839
+bFF qt
+#1387595901
+bFF gnustep-make
+#1387596081
+export JAVA_HOME=/home7/tvctopin/Library/Java/JavaVirtualMachines/jdk1.7.0_45
+#1387596083
+exit
+#1387596115
+bFF ruby186
+#1387596142
+bI ruby186 --with-gdbm --with-tcltk
+#1387596167
+bFF tcl-tk
+#1387596180
+bI tcl-tk --enable-threads 
+#1387596402
+bFF tk
+#1387596416
+bI tcl-tk 
+#1387593288
+bE ncurses -i
+#1387593296
+export EDITOR=rmate
+#1387593297
+bE ncurses -i
+#1387596624
+bS auto
+#1387596635
+bFF automoc4 make m4
+#1387596669
+bI automoc4
+#1387596709
+bI qt 
+#1387597926
+screen ;bI qt 
+#1387596884
+bS gnu
+#1387596893
+bFF gnuplot
+#1387596904
+bFF gnustep-make
+#1387596920
+bFF gnu-getopt
+#1387596935
+bFF deja-gnu
+#1387596951
+bFF gnu-apl
+#1387596962
+bI gnu-apl
+#1387597098
+bS gnu
+#1387597109
+bFF gnu-chess
+#1387597136
+bFF gnu-indent
+#1387597154
+bI gnu-indent --default-names
+#1387597224
+bS gnu
+#1387597236
+bFF gnu-prolog
+#1387597245
+bI gnu-prolog
+#1387597316
+bS gnu
+#1387597328
+bFF gnu-shogi
+#1387597334
+bE gnu-shogi
+#1387597351
+bFF gnu-smalltalk
+#1387597361
+bFF glew
+#1387597367
+bI glew
+#1387597539
+bS gnu
+#1387597560
+bFF gnu-typist
+#1387597567
+bI gnu-typist
+#1387597687
+bS gnu
+#1387597692
+bFF gnu-units
+#1387597702
+bFF gnu-which
+#1387597711
+bI gnu-which --default-names
+#1387597740
+bFF nu-time      gnuplot
+#1387597750
+bFF gnu-time      gnuplot
+#1387597766
+bE gnu-time
+#1387597821
+bI gnu-time
+#1387597838
+bS gnu
+#1387597846
+bFF gnumeric
+#1387597854
+bFF goffice
+#1387597864
+bFF gtk+
+#1387597883
+bI gtk+ --with-jasper
+#1387597904
+bFF jasper
+#1387597982
+bI jasper
+#1387598094
+bS link
+#1387598101
+bFF hardlink
+#1387598107
+bI hardlink
+#1387598127
+bFF linklint links
+#1387598153
+bI links && bI linklint
+#1387598271
+bS gnu
+#1387598280
+bFF gnunet
+#1387598287
+bFF libextractor
+#1387598295
+bFF iso-codes
+#1387598312
+bI libextractor --with-iso-codes
+#1387598329
+wget http://pkg-isocodes.alioth.debian.org/downloads/iso-codes-3.47.tar.xz
+#1387598345
+wget -m http://pkg-isocodes.alioth.debian.org/downloads/iso-codes-3.47.tar.xz
+#1387598357
+bI libextractor
+#1387601139
+exit
+#1387617864
+./configure --prefix=/home7/tvctopin/Cellar/hellofuck/1.0
+#1387617907
+make
+#1387617910
+ls
+#1387617960
+./missing
+#1387617969
+./missing --help
+#1387618011
+./missing automake
+#1387618069
+wH automake
+#1387618080
+bFF automake
+#1387618164
+./missing automake --run
+#1387618174
+./missing  --run
+#1387618178
+ls
+#1387618199
+ls src
+#1387618218
+./configure --prefix=/home7/tvctopin/Cellar/hellofuck/1.0
+#1387618243
+make
+#1387618256
+cat INSTALL
+#1387618266
+./INSTALL
+#1387618282
+./depcomp
+#1387618291
+ls
+#1387618314
+./mkinstalldirs
+#1387618318
+ls
+#1387618337
+cat ./mkinstalldirs
+#1387618379
+ls
+#1387618392
+ls script
+#1387618404
+autoconf -v
+#1387618442
+autoreconf -v -i -f
+#1387618481
+autoreconf -v -i -f --libtool
+#1387618492
+autoreconf --help
+#1387618661
+autoreconf -v -i -f -m -s -d --warnings=all
+#1387618826
+autoreconf -v -i -f  -s -d --warnings=all
+#1387618895
+automake --add-missing --force -i
+#1387618910
+autoupdate -v
+#1387618918
+automake --add-missing --force -i
+#1387618933
+unset CFLAGS
+#1387618948
+unset LDFLAGS
+#1387618954
+automake --add-missing --force -i
+#1387618997
+autoreconf -v -i -f   -d --warnings=all
+#1387619053
+rmate src/Makefile.am
+#1387619106
+autoreconf -v -i -f   -d --warnings=all
+#1387619137
+automake --add-missing --force -i
+#1387619165
+autoupdate -v
+#1387619176
+automake --add-missing --force -i
+#1387619184
+ls
+#1387619191
+./configure --prefix=/home7/tvctopin/Cellar/hellofuck/1.0
+#1387619208
+make
+#1387619258
+hello
+#1387619270
+autoclean
+#1387619278
+make clean
+#1387619305
+./configu
+#1387619310
+./configure 
+#1387619326
+make
+#1387619348
+wH getopt
+#1387619355
+getopt -v
+#1387619361
+getopt --version
+#1387619376
+/usr/bin/getopt --version
+#1387619385
+automake -v
+#1387619398
+automake --version
+#1387619413
+./configure 
+#1387619422
+make
+#1387619440
+make clean
+#1387619610
+./configure CC=gcc CFLAGS="-Os -w -pipe -march=core2 -msse4" --prefix=/home7/tvctopin/Cellar/hellofuck/1.0
+#1387619617
+configure: loading site script /home7/tvctopin/etc/config.s
+#1387619661
+./configure CC=gcc CFLAGS="-Os -w -pipe -march=core2 -msse4" --prefix=/home7/tvctopin/Cellar/hellofuck/1.0
+#1387619683
+make
+#1387619752
+./configure CC=gcc --prefix=/home7/tvctopin/Cellar/hellofuck/1.0
+#1387619778
+make
+#1387619809
+./configure --help
+#1387620008
+./configure CC=/usr/bin/gcc CXX=/usr/bin/g++ CFLAGS="-Os -w -pipe -march=core2 -msse4" CPPFLAGS=-isystem/home7/tvctopin/include -F/home7/tvctopin/Frameworks"  LDFLAGS="-L/home7/tvctopin/lib -F/home7/tvctopin/Frameworks -Wl,-headerpad_max_install_names" --prefix=/home7/tvctopin/Cellar/hellofuck/1.0 --enable-dependency-tracking
+#1387620056
+./configure CC=/usr/bin/gcc CXX=/usr/bin/g++ CFLAGS="-Os -w -pipe -march=core2 -msse4" CPPFLAGS="-isystem/home7/tvctopin/include -F/home7/tvctopin/Frameworks"  LDFLAGS="-L/home7/tvctopin/lib -F/home7/tvctopin/Frameworks -Wl,-headerpad_max_install_names" --prefix=/home7/tvctopin/Cellar/hellofuck/1.0 --enable-dependency-tracking
+#1387620079
+make
+#1387620121
+exit
+#1387619470
+brew --env
+#1387617048
+brew create http://mij.oltrelinux.com/devel/autoconf-automake/hellofuck.tar.bz2
+#1387617114
+export EDITOR=rmate
+#1387617119
+bE hellofuck
+#1387617448
+brew audit hellofuck
+#1387617457
+bE hellofuck
+#1387617489
+brew audit hellofuck
+#1387617499
+bE hellofuck
+#1387617509
+brew audit hellofuck
+#1387617530
+bE hellofuck
+#1387617568
+brew audit hellofuck
+#1387617584
+bE hellofuck
+#1387617744
+brew audit hellofuck
+#1387617752
+bI hellofuck
+#1387617824
+bI hellofuck -i
+#1387620129
+ls
+#1387620182
+bU && bC
+#1387620478
+brew prune
+#1387620535
+brew clean
+#1387620540
+brew cleanup
+#1387620625
+brew doctor
+#1387620777
+bFF libiconv
+#1387620785
+bR libiconv
+#1387620790
+bE libiconv
+#1387620944
+bFF libiconv
+#1387620951
+bI libiconv
+#1387632996
+ls
+#1387633015
+bS gnu
+#1387633025
+bFF gnustep-make
+#1387633057
+bF gnustep-make
+#1387633074
+bS gru
+#1387633082
+bFF grub
+#1387633093
+bF grub
+#1387633109
+bF grub -i --git
+#1387633118
+bI grub -i --git
+#1387633140
+bI grub -i 
+#1387633158
+exit
+#1387632814
+export
+#1387632857
+bFF qt
+#1387632870
+bFF mysql
+#1387632879
+bFF pidof
+#1387632884
+bI pidof
+#1387632930
+bI pidof -i --git
+#1387633169
+bI grub 
+#1387633488
+bI grub -i --git
+#1387633510
+brew --env
+#1387633539
+brew --config
+#1387633563
+brew doctor
+#1387633707
+cd sources/
+#1387633709
+ls
+#1387633753
+rM gcc-4.8.2  gcc-build  
+#1387633808
+bFF gettext
+#1387633880
+uB lfs-bootscripts-20130821.tar.bz2
+#1387633886
+ls
+#1387633895
+cat README
+#1387633929
+ls
+#1387633940
+ls lfs
+#1387633966
+..
+#1387633968
+ls
+#1387634007
+uX util-linux-2.24.tar.xz
+#1387634011
+ls
+#1387634096
+brew diy
+#1387634127
+./autogen.sh
+#1387634263
+ls
+#1387634285
+./configure --prefix=/home7/tvctopin/Cellar/util-linux/2.24
+#1387634611
+make
+#1387634675
+ls
+#1387634682
+..
+#1387634685
+ls
+#1387634700
+uX systemd-208.tar.xz
+#1387634703
+ls
+#1387634723
+cat README
+#1387634817
+ls
+#1387634859
+./configure --prefix=/home7/tvctopin/Cellar/systemd/208
+#1387634960
+ls ../
+#1387634968
+make
+#1387634991
+bFF dbus
+#1387635017
+bE dbus
+#1387635093
+bI dbus
+#1387635127
+bE dbus
+#1387635167
+bI dbus
+#1387635309
+bE dbus
+#1387635323
+bI dbus
+#1387635509
+bS gtk
+#1387635521
+bFF gtk-doc
+#1387635531
+bFF gnome-doc-utils
+#1387635538
+bFF libxml2
+#1387635547
+bI libxml2 --HEAD
+#1387635967
+bE libxml2
+#1387636080
+..
+#1387639320
+bFF guile
+#1387639339
+bE guile
+#1387640011
+bF guile
+#1387640056
+brew unpack  guile
+#1387640099
+mv /home7/tvctopin/guile-2.0.9 sources/
+#1387640106
+cd sources/
+#1387640120
+cd guile-2.0.9/
+#1387640120
+ls
+#1387640152
+ls ../
+#1387640231
+cd  ~/src/guilguile--git/e-g
+#1387640241
+cd  ~/src/guile--git/
+#1387640245
+ls
+#1387640255
+git checkup
+#1387640261
+git checkout
+#1387640265
+git checkout -f
+#1387640272
+git pull -v
+#1387640290
+./autogen.sh
+#1387640764
+cat autogen
+#1387640769
+cat autogen.sh
+#1387640879
+bFF flex
+#1387640906
+echo ""
+#1387640997
+./configure 
+#1387641310
+./configure --help
+#1387641422
+./configure 
+#1387642003
+brew --env
+#1387642385
+bFF BDW_GC
+#1387642394
+bFF bdw-gc
+#1387642906
+ls /home7/tvctopin/opt/
+#1387642912
+bFF libiconv
+#1387642924
+/home7/tvctopin/Cellar/libiconv/1.14/lib
+#1387642930
+ls /home7/tvctopin/Cellar/libiconv/1.14/lib
+#1387642972
+ls /home7/tvctopin/opt/libffi/lib..lib64
+#1387642981
+ls /home7/tvctopin/opt/libffi/lib../lib64
+#1387642986
+ls /home7/tvctopin/opt/libffi/lib
+#1387642995
+ls /home7/tvctopin/opt/libffi/
+#1387643002
+ls /home7/tvctopin/opt/libffi/lib64
+#1387643019
+ls /home7/tvctopin/opt/libffi/lib64..lib
+#1387643037
+/home7/tvctopin/opt/libffi/include
+#1387643040
+ls /home7/tvctopin/opt/libffi/include
+#1387643049
+ls /home7/tvctopin/opt/libffi/
+#1387643055
+ls /home7/tvctopin/opt/libffi/lib
+#1387643072
+ls /home7/tvctopin/opt/bdw-gc/include
+#1387643098
+/home7/tvctopin/opt/gmp/include
+#1387643102
+/home7/tvctopin/opt/gmp/
+#1387643107
+ls /home7/tvctopin/opt/gmp/
+#1387643112
+ls /home7/tvctopin/opt/gmp/include/
+#1387643128
+ls /home7/tvctopin/opt/libffi/lib/libffi-3.0.13
+#1387643134
+ls /home7/tvctopin/opt/libffi/lib/libffi-3.0.13/include/
+#1387643314
+ls /home7/tvctopin/opt/ltdl
+#1387643320
+ls /home7/tvctopin/opt/libltdl
+#1387643341
+ls /home7/tvctopin/opt/gmp
+#1387643350
+ls /home7/tvctopin/opt/intl
+#1387643355
+ls /home7/tvctopin/opt/libintl
+#1387643368
+ls /home7/tvctopin/opt/
+#1387643399
+bS intl
+#1387643406
+bFF intltool
+#1387643427
+ls /home7/tvctopin/Cellar/intltool/0.50.2
+#1387643437
+ls /home7/tvctopin/Cellar/intltool/0.50.2/share/
+#1387643449
+ls /home7/tvctopin/Cellar/intltool/0.50.2/bin
+#1387643461
+ls /home7/tvctopin/lib
+#1387643504
+lS /home7/tvctopin/lib/libintl.a 
+#1387643539
+ls /home7/tvctopin/opt/gettext
+#1387643551
+ls /home7/tvctopin/opt/gettext/lib
+#1387643653
+ls /home7/tvctopin/opt/bdw-gc/lib
+#1387643718
+ls
+#1387643719
+./configure --prefix=/home7/tvctopin/Cellar/guile/2.0.9 --build=x86_64-redhat-linux-gnu --enable-silent-rules --enable-dependency-tracking --enable-ld-version-script --enable-shared --enable-fast-install=yes --enable-error-on-warning --enable-guile-debug --with-gnu-ld --with-pic --with-sysroot=/home7/tvctopin --with-lispdir --with-threads --with-libiconv-prefix=/home7/tvctopin/Cellar/libiconv/1.14 --with-libunistring-prefix=/home7/tvctopin/opt/libunistring --with-libltdl-prefix=/home7/tvctopin/opt/libltdl --with-libgmp-prefix=/home7/tvctopin/opt/gmp --with-libintl-prefix=/home7/tvctopin/opt/gettext --with-libreadline-prefix=/home7/tvctopin/opt/readline PKG_CONFIG_PATH=/home7/tvctopin/lib/pkgconfig PKG_CONFIG_LIBDIR=/home7/tvctopin/lib/pkgconfig LIBFFI_CFLAGS=/home7/tvctopin/opt/libffi/lib/libffi-3.0.13/include LIBFFI_LIBS=/home7/tvctopin/opt/libffi/lib64 BDW_GC_CFLAGS=/home7/tvctopin/opt/bdw-gc/include BDW_GC_LIBS=/home7/tvctopin/opt/bdw-gc/lib CC=/usr/bin/gcc CFLAGS='-Os -w -pipe -march=core2 -msse4' CPPFLAGS='-isystem/home7/tvctopin/include -F/home7/tvctopin/Frameworks' LDFLAGS='-L/home7/tvctopin/lib -F/home7/tvctopin/Frameworks -Wl,-headerpad_max_install_names' CC_FOR_BUILD GUILE_FOR_BUILD
+#1387643766
+./configure --prefix=/home7/tvctopin/Cellar/guile/2.0.9 --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --target=x86_64-redhat-linux-gnu --enable-silent-rules --enable-dependency-tracking --enable-ld-version-script --enable-shared --enable-fast-install=yes --enable-error-on-warning --enable-guile-debug --with-gnu-ld --with-pic --with-sysroot=/home7/tvctopin --with-lispdir --with-threads --with-libiconv-prefix=/home7/tvctopin/Cellar/libiconv/1.14 --with-libunistring-prefix=/home7/tvctopin/opt/libunistring --with-libltdl-prefix=/home7/tvctopin/opt/libltdl --with-libgmp-prefix=/home7/tvctopin/opt/gmp --with-libintl-prefix=/home7/tvctopin/opt/gettext --with-libreadline-prefix=/home7/tvctopin/opt/readline PKG_CONFIG_PATH=/home7/tvctopin/lib/pkgconfig PKG_CONFIG_LIBDIR=/home7/tvctopin/lib/pkgconfig LIBFFI_CFLAGS=/home7/tvctopin/opt/libffi/lib/libffi-3.0.13/include LIBFFI_LIBS=/home7/tvctopin/opt/libffi/lib64 BDW_GC_CFLAGS=/home7/tvctopin/opt/bdw-gc/include BDW_GC_LIBS=/home7/tvctopin/opt/bdw-gc/lib CC=/usr/bin/gcc CFLAGS='-Os -w -pipe -march=core2 -msse4' CPPFLAGS='-isystem/home7/tvctopin/include -F/home7/tvctopin/Frameworks' LDFLAGS='-L/home7/tvctopin/lib -F/home7/tvctopin/Frameworks -Wl,-headerpad_max_install_names' CC_FOR_BUILD GUILE_FOR_BUILD
+#1387643965
+ls /home7/tvctopin/opt/readline
+#1387644050
+bFF readline
+#1387644055
+bF readline
+#1387644093
+make
+#1387644141
+ls /home7/tvctopin/opt/bdw-gc/include
+#1387644191
+lS /home7/tvctopin/opt/bdw-gc/include
+#1387644195
+lS /home7/tvctopin/opt/bdw-gc/include/gc
+#1387644211
+ls /home7/tvctopin/opt/bdw-gc/lib
+#1387644215
+ls /home7/tvctopin/opt/bdw-gc/
+#1387644221
+ls /home7/tvctopin/opt/bdw-gc/share/
+#1387644224
+ls /home7/tvctopin/opt/bdw-gc/share/gc
+#1387644286
+bI readline -i
+#1387645727
+ls
+#1387645743
+cat autogen.sh
+#1387644327
+cd src
+#1387644351
+brew unpack readline
+#1387644357
+bS readline
+#1387644365
+bF libreadline-java
+#1387644427
+cd /home7/tvctopin/src/readline-6.2.4
+#1387644429
+ls
+#1387644458
+cat INSTALL
+#1387645099
+./configure --help
+#1387645481
+ls
+#1387645483
+./configure --prefix=/home7/tvctopin/Cellar/readline/6.2.4 --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --target=x86_64-redhat-linux-gnu --enable-multibyte --enable-largefile --enable-option-checking --cache-file=./config.cache --version --with-curses --enable-shared CC=/usr/bin/gcc CFLAGS='-Os -w -pipe -march=core2 -msse4' CPPFLAGS='-isystem/home7/tvctopin/include -F/home7/tvctopin/Frameworks' LDFLAGS='-L/home7/tvctopin/lib -F/home7/tvctopin/Frameworks -Wl,-headerpad_max_install_names'
+#1387645588
+rmate ./autogen.sh
+#1387645601
+lls
+#1387645605
+ls
+#1387645638
+chmod a+x  ./autogen.sh
+#1387645640
+ls
+#1387645672
+./autogen.sh
+#1387645782
+..
+#1387645793
+mv readline-6.2.4 readline-git
+#1387645798
+cd readline-git
+#1387645802
+./autogen.sh
+#1387645833
+rmate ./autogen.sh
+#1387645848
+./autogen.sh
+#1387645859
+rmate ./autogen.sh
+#1387645898
+./autogen.sh
+#1387645909
+ls configure.in
+#1387645912
+cat configure.in
+#1387645925
+rmate configure.in
+#1387645984
+mv configure.in configure.ac
+#1387645990
+./autogen.sh
+#1387646035
+mv configure.ac configure.ac_bk
+#1387646039
+ls configure.in
+#1387646043
+ls configure.ac
+#1387646047
+./autogen.sh
+#1387646078
+mv configure.ac_bk configure.in
+#1387646087
+rmate configure.in
+#1387646116
+./autogen.sh
+#1387646460
+gem install rb-readline --user
+#1387646509
+./autogen.sh
+#1387646576
+rmate configure.in
+#1387646625
+./autogen.sh
+#1387646761
+./configure --prefix=/home7/tvctopin/Cellar/readline/6.2.4 --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --target=x86_64-redhat-linux-gnu --enable-multibyte --enable-largefile --enable-option-checking --cache-file=./config.cache --version --with-curses --enable-shared CC=/usr/bin/gcc CFLAGS='-Os -w -pipe -march=core2 -msse4' CPPFLAGS='-isystem/home7/tvctopin/include -F/home7/tvctopin/Frameworks' LDFLAGS='-L/home7/tvctopin/lib -F/home7/tvctopin/Frameworks -Wl,-headerpad_max_install_names'
+#1387646830
+mv configure.in configure.in_bk
+#1387646835
+./configure --prefix=/home7/tvctopin/Cellar/readline/6.2.4 --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --target=x86_64-redhat-linux-gnu --enable-multibyte --enable-largefile --enable-option-checking --cache-file=./config.cache --version --with-curses --enable-shared CC=/usr/bin/gcc CFLAGS='-Os -w -pipe -march=core2 -msse4' CPPFLAGS='-isystem/home7/tvctopin/include -F/home7/tvctopin/Frameworks' LDFLAGS='-L/home7/tvctopin/lib -F/home7/tvctopin/Frameworks -Wl,-headerpad_max_install_names'
+#1387646908
+mv configure.in configure.in_bk
+#1387646920
+ls
+#1387646930
+lS
+#1387647051
+cat config.h.in
+#1387647124
+rmate   config.h.in
+#1387647325
+make clean
+#1387647414
+./configure --prefix=/home7/tvctopin/Cellar/readline/6.2.4 --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --target=x86_64-redhat-linux-gnu --enable-option-checking --cache-file=./config.cache --version --with-curses --enable-shared CC=/usr/bin/gcc CFLAGS='-Os -w -pipe -march=core2 -msse4' CPPFLAGS='-isystem/home7/tvctopin/include -F/home7/tvctopin/Frameworks' LDFLAGS='-L/home7/tvctopin/lib -F/home7/tvctopin/Frameworks -Wl,-headerpad_max_install_names'
+#1387647822
+cd /home7/tvctopin/src/readline-git
+#1387647828
+./configure --prefix=/home7/tvctopin/Cellar/readline/6.2.4 --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --target=x86_64-redhat-linux-gnu --enable-option-checking --cache-file=./config.cache --version --with-curses --enable-shared CC=/usr/bin/gcc CFLAGS='-Os -w -pipe -march=core2 -msse4' CPPFLAGS='-isystem/home7/tvctopin/include -F/home7/tvctopin/Frameworks' LDFLAGS='-L/home7/tvctopin/lib -F/home7/tvctopin/Frameworks -Wl,-headerpad_max_install_names'
+#1387647947
+./configure --prefix=/home7/tvctopin/Cellar/readline/6.2.4 --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --target=x86_64-redhat-linux-gnu --enable-option-checking --version --with-curses --enable-shared --with-libautoconf-prefix=/home7/tvctopin/opt/autoconf CC=/usr/bin/gcc CFLAGS='-Os -w -pipe -march=core2 -msse4' CPPFLAGS='-isystem/home7/tvctopin/include -F/home7/tvctopin/Frameworks' LDFLAGS='-L/home7/tvctopin/lib -F/home7/tvctopin/Frameworks -Wl,-headerpad_max_install_names'
+#1387647981
+# install readline
+#1387647981
+cd /home7/tvctopin/src/readline-git
+#1387647981
+./configure --prefix=/home7/tvctopin/Cellar/readline/6.2.4 --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --target=x86_64-redhat-linux-gnu --enable-option-checking --version --with-curses --enable-shared --with-autoconf-prefix=/home7/tvctopin/opt/autoconf CC=/usr/bin/gcc CFLAGS='-Os -w -pipe -march=core2 -msse4' CPPFLAGS='-isystem/home7/tvctopin/include -F/home7/tvctopin/Frameworks' LDFLAGS='-L/home7/tvctopin/lib -F/home7/tvctopin/Frameworks -Wl,-headerpad_max_install_names'
+#1387648009
+cd /home7/tvctopin/src/readline-git
+#1387648009
+./configure --prefix=/home7/tvctopin/Cellar/readline/6.2.4 --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --target=x86_64-redhat-linux-gnu --enable-option-checking --with-curses --enable-shared CC=/usr/bin/gcc CFLAGS='-Os -w -pipe -march=core2 -msse4' CPPFLAGS='-isystem/home7/tvctopin/include -F/home7/tvctopin/Frameworks' LDFLAGS='-L/home7/tvctopin/lib -F/home7/tvctopin/Frameworks -Wl,-headerpad_max_install_names'
+#1387648046
+./autogen.sh
+#1387648055
+ls
+#1387648092
+make
+#1387648111
+make check
+#1387648125
+make test
+#1387648131
+make all
+#1387648148
+make check
+#1387648156
+make install
+#1387648228
+make check
+#1387648234
+make clean
+#1387648239
+make 
+#1387648261
+make install
+#1387648530
+brew link readline
+#1387648567
+bR readline
+#1387648581
+make install
+#1387648602
+ldconfig
+#1387648653
+ldconfig -f ~/etc/ld.so.conf -C /home7/tvctopin/etc/ld.so.cache -p --format=new 
+#1387648669
+brew link readline
+#1387648685
+cd ..
+#1387648687
+ls
+#1387648764
+cd guile--git 
+#1387648786
+ls
+#1387648882
+./configure --prefix=/home7/tvctopin/Cellar/guile/2.0.9 --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --target=x86_64-redhat-linux-gnu --enable-silent-rules --enable-dependency-tracking --enable-ld-version-script --enable-shared --enable-fast-install=yes --enable-error-on-warning --enable-guile-debug --with-gnu-ld --with-pic --with-sysroot=/home7/tvctopin --with-lispdir --with-threads --with-libiconv-prefix=/home7/tvctopin/Cellar/libiconv/1.14 --with-libunistring-prefix=/home7/tvctopin/opt/libunistring --with-libltdl-prefix=/home7/tvctopin/opt/libltdl --with-libgmp-prefix=/home7/tvctopin/opt/gmp --with-libintl-prefix=/home7/tvctopin/opt/gettext --with-libreadline-prefix=/home7/tvctopin/opt/readline PKG_CONFIG_PATH=/home7/tvctopin/lib/pkgconfig PKG_CONFIG_LIBDIR=/home7/tvctopin/lib/pkgconfig LIBFFI_CFLAGS=/home7/tvctopin/opt/libffi/lib/libffi-3.0.13/include LIBFFI_LIBS=/home7/tvctopin/opt/libffi/lib64 BDW_GC_CFLAGS=/home7/tvctopin/opt/bdw-gc/include BDW_GC_LIBS=/home7/tvctopin/opt/bdw-gc/lib CC=/usr/bin/gcc CFLAGS='-Os -w -pipe -march=core2 -msse4' CPPFLAGS='-isystem/home7/tvctopin/include -F/home7/tvctopin/Frameworks' LDFLAGS='-L/home7/tvctopin/lib -F/home7/tvctopin/Frameworks -Wl,-headerpad_max_install_names' CC_FOR_BUILD GUILE_FOR_BUILD
+#1387649114
+make
+#1387649491
+wget http://pkg-isocodes.alioth.debian.org/downloads/iso-codes-3.47.tar.xz
+#1387649521
+ls /home7/tvctopin/opt/bdw-gc/include
+#1387649528
+ls /home7/tvctopin/opt/bdw-gc/include/gc
+#1387672557
+uname -a
+#1387672574
+ls
+#1387672579
+export
+#1387672679
+cat .ssh/spad_dsa.pub
+#1387672742
+uname -a
+#1387672756
+cat .ssh/spad_dsa
+#1387672829
+uname -a
+#1387672912
+uname -a;echo "prompt"
+#1387672938
+brew missing
+#1387672950
+bFf gettext
+#1387672960
+bFF gettext
+#1387673009
+bFF libiconv
+#1387673049
+bFF guile
+#1387673060
+brew link guile
+#1387673087
+bFF bdw-gc
+#1387673165
+bR autoconf
+#1387673190
+bI autoconf
+#1387673219
+bR autoconf
+#1387673227
+bE autoconf
+#1387673505
+ls opt/gettext/
+#1387673516
+bI autoconf
+#1387673529
+bE autoconf
+#1387673557
+bI autoconf
+#1387673687
+bE autoconf
+#1387674091
+bI autoconf
+#1387674179
+bE autoconf
+#1387674366
+bI autoconf
+#1387674419
+autoconf --version
+#1387712533
+uname -a;echo "prompt"
+#1387712560
+export
+#1387712593
+nano .bashrc
+#1387712726
+nano .bash_prompt
+#1387712874
+exit
+#1387712889
+uname -a;echo "prompt"
+#1387713673
+uname -a
+#1387713681
+ls
+#1387713702
+lS
+#1387713728
+exit
+#1387713877
+uname -a
+#1387714343
+ls
+#1387714456
+uname -a
+#1387714495
+bU
+#1387714535
+exit
+#1387714568
+ls
+#1387714574
+bC
+#1387719099
+uname -a;echo "";echo "Connect from VSSH sPad"
+#1387719146
+ls
+#1387719186
+autoconf --version
+#1387719231
+brew --env
+#1387722914
+uname -a;echo "";echo "Connect from VSSH sPad"
+#1387722944
+cd src
+#1387722980
+brew unpack pkg-config
+#1387722995
+cd  /home7/tvctopin/src/pkg-config-0.28
+#1387723016
+/home7/tvctopin/src/pkg-config-0.28
+#1387723040
+cat RE
+#1387723044
+cat README
+#1387723283
+cat INSTALL
+#1387724320
+brew --env
+#1387724635
+.//
+#1387724683
+./configure --help
+#1387725492
+bFF pkg-config
+#1387726309
+./configure --no-create
+#1387726381
+./configure --no-create > testconfigure
+#1387726433
+cat  testconfigure
+#1387727279
+ls glib
+#1387727299
+./configure --help
+#1387727337
+cat depcomp 
+#1387727353
+./missing
+#1387727360
+./missing --help
+#1387727376
+./missing --run
+#1387727405
+./missing autoconf --run
+#1387727450
+./missing bison --run
+#1387727467
+./missing bison 
+#1387727476
+./missing lex
+#1387727496
+./depcomp 
+#1387727503
+./depcomp  --help
+#1387727523
+./depcomp  --source
+#1387727566
+./depcomp  source
+#1387727605
+./depcomp  source depmode
+#1387727662
+./depcomp  pkg-config depmode
+#1387727676
+./depcomp  pkg-config -depmode
+#1387727680
+./depcomp  pkg-config --depmode
+#1387727717
+./config.sub > testconfig
+#1387727733
+./config.sub --help
+#1387727770
+./config.sub ALLAS
+#1387727799
+./config.sub x86_64-redhat-linux-gnu
+#1387727840
+./config.sub -t  x86_64-redhat-linux-gnu
+#1387727873
+./config.guess > test
+#1387727877
+cat test
+#1387727907
+mam
+#1387727928
+make clean
+#1387727934
+./libtool
+#1387727940
+./libtool --help
+#1387727956
+./libtool --config
+#1387728306
+--enable-dependency-tracking --enable-indirect-deps
+#1387728306
+--config-cache --enable-silent-rules --with-pic --with-gnu-ld --with-sysroot="/home7/tvctopin" --with-pc-path --with-system-include-path --with-internal-glib
+#1387728306
+--with-gcov --enable-ld-version-script --enable-shared --enable-fast-install=yes --enable-error-on-warning --with-lispdir --with-threads CC="gcc -arch x86_64 -fPIC -DPIC -static -c -o -g -m elf_x86_64" CXX="g++ -arch x86_64 -fPIC -DPIC -static -c -o -g -m elf_x86_64" CFLAGS="-Os -w -pipe -march=core2 -msse4"
+#1387728350
+--config-cache --enable-silent-rules --with-pic --with-gnu-ld --with-sysroot="/home7/tvctopin" --with-pc-path --with-system-include-path --with-internal-glib
+#1387728350
+--with-gcov --enable-ld-version-script --enable-shared --enable-fast-install=yes --enable-error-on-warning --with-lispdir --with-threads CC="gcc -arch x86_64 -fPIC -DPIC -static -c -o -g -m elf_x86_64" CXX="g++ -arch x86_64 -fPIC -DPIC -static -c -o -g -m elf_x86_64" CFLAGS="-Os -w -pipe -march=core2 -msse4"
+#1387728460
+--with-gcov --enable-ld-version-script --enable-shared --enable-fast-install=yes --enable-error-on-warning --with-lispdir --with-threads CC="gcc -arch x86_64 -fPIC -DPIC -static -c -o -g -m elf_x86_64" CXX="g++ -arch x86_64 -fPIC -DPIC -static -c -o -g -m elf_x86_64" CFLAGS="-Os -w -pipe -march=core2 -msse4"
+#1387728517
+..
+#1387728524
+rM pkg-config-0.28
+#1387728530
+brew unpack pkg-config
+#1387728550
+cd  /home7/tvctopin/src/pkg-config-0.28
+#1387728573
+8
+#1387728581
+--with-gcov --enable-ld-version-script --enable-shared --enable-fast-install=yes --enable-error-on-warning --with-lispdir --with-threads CC="gcc -arch x86_64 -fPIC -DPIC -static -c -o -g -m elf_x86_64" CXX="g++ -arch x86_64 -fPIC -DPIC -static -c -o -g -m elf_x86_64" CFLAGS="-Os -w -pipe -march=core2 -msse4"
+#1387728635
+bR pkg-config
+#1387728653
+uname -a;echo "";echo "Connect from VSSH sPad"
+#1387728665
+cd  /home7/tvctopin/src/pkg-config-0.28
+#1387728676
+uname -a;echo "";echo "Connect from VSSH sPad"
+#1387728694
+make clean
+#1387728720
+--prefix="/home7/tvctopin/Cellar/pkg-config/0.28" --version --enable-dependency-tracking --enable-indirect-deps --cache-file=config.cache --enable-silent-rules --with-pic --with-gnu-ld --with-sysroot="/home7/tvctopin" --with-pc-path --with-system-include-path --with-internal-glib --with-gcov --enable-ld-version-script --enable-shared --enable-fast-install=yes --enable-error-on-warning --with-lispdir --with-threads CC="gcc -arch x86_64 -fPIC -DPIC -static -c -o -g -m elf_x86_64" CXX="g++ -arch x86_64 -fPIC -DPIC -static -c -o -g -m elf_x86_64" CFLAGS="-Os -w -pipe -march=core2 -msse4"
+#1387728720
+CPPFLAGS="-isystem/home7/tvctopin/include -F/home7/tvctopin/Frameworks" LDFLAGS="-L/home7/tvctopin/lib -F/home7/tvctopin/Frameworks -Wl,-headerpad_max_install_names"
+#1387728754
+lS
+#1387728859
+--prefix="/home7/tvctopin/Cellar/pkg-config/0.28" --enable-dependency-tracking --enable-indirect-deps --cache-file=config.cache --config-cache --enable-silent-rules --with-pic --with-gnu-ld --with-sysroot="/home7/tvctopin" --with-pc-path --with-system-include-path --with-internal-glib --with-gcov --enable-ld-version-script --enable-shared --enable-fast-install=yes --enable-error-on-warning --with-lispdir --with-threads CC="gcc -arch x86_64 -fPIC -DPIC -static -c -o -g -m elf_x86_64" CXX="g++ -arch x86_64 -fPIC -DPIC -static -c -o -g -m elf_x86_64" CFLAGS="-Os -w -pipe -march=core2 -msse4"
+#1387728866
+--prefix="/home7/tvctopin/Cellar/pkg-config/0.28" --enable-dependency-tracking --enable-indirect-deps --cache-file=config.cache --config-cache --enable-silent-rules --with-pic --with-gnu-ld --with-sysroot="/home7/tvctopin" --with-pc-path --with-system-include-path --with-internal-glib --with-gcov --enable-ld-version-script --enable-shared --enable-fast-install=yes --enable-error-on-warning --with-lispdir --with-threads CC="gcc -arch x86_64 -fPIC -DPIC -static -c -o -g -m elf_x86_64" CXX="g++ -arch x86_64 -fPIC -DPIC -static -c -o -g -m elf_x86_64" CFLAGS="-Os -w -pipe -march=core2 -msse4"
+#1387728951
+CPPFLAGS="-isystem/home7/tvctopin/include -F/home7/tvctopin/Frameworks" LDFLAGS="-L/home7/tvctopin/lib -F/home7/tvctopin/Frameworks -Wl,-headerpad_max_install_names"
+#1387728970
+bR gawk
+#1387728977
+bR awk
+#1387728984
+bR libconfig
+#1387728993
+bR make
+#1387729001
+bR libconfig
+#1387729006
+brew list
+#1387729075
+bR gmp autoconf-archive binutils  
+#1387729098
+bR $(brew list
+)
+#1387729837
+brew list
+#1387729846
+bR bdw-gc
+#1387729849
+brew list
+#1387729852
+bC
+#1387730442
+..

@@ -1,4 +1,4 @@
-echo "loading .functions......"
+echo "loading .functions......" > /dev/null
 
 function show-empty-folders {
     find . -depth -type d -empty
@@ -12,8 +12,6 @@ function kill-empty-folders {
 function bRL() {
   brew unlink "$@" && brew link "$@" --overwrite
 }
-
-
 
 # homebrew function shotcut, unlink then remove the pkg
 function bR() {
@@ -34,7 +32,6 @@ function uX() {
   xz -dc $filename  | tar -xpf -
   cd "./$realname" && echo "Unpack Done!!"
 }
-
 # extract the bz2 filepackeg,and go to the extract path
 function uB() {
   filename="$@"
@@ -43,7 +40,6 @@ function uB() {
   cd "./$realname" && echo "Unpack Done!!"
 }
 
- 
 # Create a new directory and enter it
 function mkd() {
   mkdir -p "$@" && cd "$@"
@@ -65,3 +61,31 @@ function gitio() {
   fi
   curl -i http://git.io/ -F "url=${2}" -F "code=${1}"
 }
+
+# hosts
+function _sshconn() {
+  echo "ssh -A $1"
+  ssh -A $1
+}
+# e.g.,
+# function timwarnock { _sshconn 'timwarnock.com'; }
+
+
+# tunnels
+function _tunnel() {
+    _ME=`whoami`
+        if [ $# -eq 3 ]; then
+_ME=$3
+    fi
+        CMD="ssh -f $_ME@$1 -L $2 -N"
+        PID=`ps -e | grep "$CMD" | grep -v grep | awk '{ print $1 }'`
+        if [ ! "$PID" == "" ]; then
+                echo "killing old tunnel"
+                kill -9 $PID
+                sleep 1
+        fi
+        echo $CMD
+        $CMD
+}
+# e.g.,
+# function eg_tunnel { _tunnel proxyhost local-port:privatehost:port ; }

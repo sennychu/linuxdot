@@ -1,5 +1,6 @@
-echo "loading .bash_profile......"
+echo "loading .bash_profile......" > /dev/null
 
-if [ -r ~/.bashrc ]; then . ~/.bashrc; fi
+if [ -r ~/.bashrc ]; then
+  source ~/.bashrc;
+fi
 
-[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
