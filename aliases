@@ -1,6 +1,5 @@
 echo "loading .aliases....." > /dev/null
 
-
 alias pS="ps ax | grep"
 alias pSh="pip search"
 alias pI="pip install --upgrade -v"
@@ -14,8 +13,8 @@ alias hS="history | grep"
 alias lS="ls -al"
 alias fD="find ~/ -name"
 alias pS="ps ax | grep"
-alias bFF="brew info"
-alias bF="brew cat"
+alias bF="brew info"
+alias bFF="brew cat"
 alias bS="brew search"
 alias bI="brew install"
 alias bC="brew cleanup && brew prune"
@@ -37,8 +36,7 @@ alias -- -="cd -"
 ## Shortcuts
 alias wR="cd ~/public_html"
 alias sR="cd /home7/tvctopin/src"
-alias dT="cd ~/.linuxdot"
-alias bW="cd ~/.linuxdot"
+alias dT="cd ~/public_html/dev/linuxdot"
 
 ## Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then
