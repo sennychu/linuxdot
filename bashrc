@@ -1,14 +1,15 @@
-echo "loading .bashrc" > /dev/null
+#echo "loading .bashrc"
 
-PATH=/usr/lib64/qt-3.3/bin:/home7/tvctopin/perl5/bin:/ramdisk/bin:/usr/bin:/usr/local/sbin:/usr/sbin
-HOME=/home7/tvctopin
-myscript=$HOME/.script
-export brew_home=/home7/tvctopin/local/source/Linuxbrew
-export gnu_home=/home7/tvctopin/local
-export PATH="$gnu_home/bin:$gnu_home/sbin:$HOME/bin:$HOME/sbin:$PATH:$myscript"
+# system def path
+PATH="/usr/lib64/qt-3.3/bin:/home7/tvctopin/perl5/bin:/ramdisk/bin:/usr/bin:/usr/local/sbin:/usr/sbin"
+export HOME="/home7/tvctopin"
+# my cum path
+export myscript="$HOME/.script"
+export brew_home="$HOME/local"
+export PATH="$brew_home/bin:$brew_home/sbin:$HOME/bin:$HOME/sbin:$PATH:$myscript"
 
 
-export MANPATH="$gnu_home/share/man:$brew_home/share/man:$MANPATH"
+export MANPATH="$brew_home/share/man:$HOME/share/man:$MANPATH"
 
 # setup server system ruby for $USER bin
 if [ -r /home7/tvctopin/.gem/ruby/1.9.3/bin ]; then
@@ -17,22 +18,25 @@ if [ -r /home7/tvctopin/.gem/ruby/1.9.3/bin ]; then
 fi
 
 # setup java env for $USER not system
-if [ -r /home7/tvctopin/Library/Java/JavaVirtualMachines/jdk1.7.0_45 ]; then
-  export JAVA_HOME="/home7/tvctopin/Library/Java/JavaVirtualMachines/jdk1.7.0_45" && export PATH="$JAVA_HOME/bin:$PATH"
+if [ -r $brew_home/Library/Java/JavaVirtualMachines/jdk1.7.0_45 ]; then
+  export JAVA_HOME="$brew_home/Library/Java/JavaVirtualMachines/jdk1.7.0_45" && export PATH="$JAVA_HOME/bin:$PATH"
 fi
 
-# setup python and ruby env for Homebrew
+# *** Homebrew ***
+# ****************
 if [[ -n `which brew` ]]; then
   # Define ld env for Homebrew
-  export LD_LIBRARY_PATH="$gnu_home/lib:$LD_LIBRARY_PATH"
-  export PKG_CONFIG_PATH="$gnu_home/lib/pkgconfig:$gnu_home/share/pkgconfig:$PKG_CONFIG_PATH"
-  export PKG_CONFIG_LIBDIR="$gnu_home/lib/pkgconfig:$gnu_home/share/pkgconfig:$PKG_CONFIG_LIBDIR"
+  export LD_LIBRARY_PATH="$brew_home/lib"
+  export PKG_CONFIG_PATH="$brew_home/lib/pkgconfig:$brew_home/share/pkgconfig"
+  export PKG_CONFIG_LIBDIR="$brew_home/lib/pkgconfig:$brew_home/share/pkgconfig"
+	export HOMEBREW_CACHE="$HOME/Library/Homebrew_Caches"
+	export HOMEBREW_TEMP="$HOME/tmp"
 
   # Find a Homebrew-built Python
   python_bin=$(brew --cellar python)/*/bin
   python_bin=`echo $python_bin`
   [[ -e $python_bin ]] && export PATH=$python_bin:$PATH && export PIP_CONFIG_FILE="/home7/tvctopin/.pip.conf"
-  [[ -e $gnu_home/share/python ]] && export PATH=$gnu_home/share/python:$PATH
+  [[ -e $brew_home/share/python ]] && export PATH=$brew_home/share/python:$PATH
 
   # Find a Homebrew-built Ruby
   ruby_bin=$(brew --prefix ruby)/bin
@@ -40,12 +44,12 @@ if [[ -n `which brew` ]]; then
   [[ -e $ruby_bin ]] && export PATH=$ruby_bin:$PATH
   
   # set GOPATH for Homebrew
-  if [ -r $gnu_home/opt/go/ ]; then
-  	export GOPATH="$gnu_home/opt/go/"
+  if [ -r $brew_home/opt/go/ ]; then
+  	export GOPATH="$brew_home/opt/go/"
   fi
   
   # Find a Homebrew-built XML 
-  export XML_CATALOG_FILES="$gnu_home/etc/xml/catalog"
+  #export XML_CATALOG_FILES="$brew_home/etc/xml/catalog"
 
   # Add Homebrew completions and homebrew sourced completions
   source $(brew --repo)/Library/Contributions/brew_bash_completion.sh
@@ -63,7 +67,7 @@ fi
 
 
 # setting for Autotool: autoconf automake libtool m4....
-export CONFIG_SITE="/home7/tvctopin/local/etc/config.site"
+export CONFIG_SITE="$brew_home/etc/config.site"
 # OS variables
 [ $(uname -s) = "Linux" ] && export LINUX=1 && export UNIX=1
 # Count CPUs for Make jobs

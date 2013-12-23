@@ -4482,3 +4482,1072 @@ rmate ~/.bash_prompt
 . .bash_prompt
 #1387790028
 rmate ~/.bash_prompt
+#1387792688
+./bootstrap 
+#1387790102
+rmate .bash_prompt
+#1387790116
+cd
+#1387790120
+rmate ~/.bash_prompt
+#1387790154
+. .bash_prompt
+#1387790165
+lS
+#1387790324
+git ls-files --deleted
+#1387790331
+git rm $(git ls-files --deleted)  
+#1387790348
+git rm --help
+#1387790370
+git rm --cached 
+#1387790388
+ls .git
+#1387790427
+mv .git .git_bk
+#1387790438
+rmate ~/.bash_prompt
+#1387790490
+. .bash_prompt
+#1387790498
+dT
+#1387790511
+rmate ~/.bash_prompt
+#1387790840
+mv .git .git_bk
+#1387790866
+mv .git_bk .git
+#1387790903
+. .bash_prompt
+#1387790915
+cd
+#1387790927
+rmate ~/.bash_prompt
+#1387791029
+. .bash_prompt
+#1387791033
+dT
+#1387791062
+git add .
+#1387791069
+export EDITOR=rmate
+#1387791076
+git commit -a
+#1387791102
+git push -v
+#1387791111
+cd
+#1387791184
+git diff
+#1387791198
+brew --env
+#1387791313
+brew doctor
+#1387791542
+echo "alias lB='cd /home7/tvctopin/local/souces/Linuxbrew'" >> .aliases
+#1387791546
+alias lB='cd /home7/tvctopin/local/souces/Linuxbrew'
+#1387791550
+lB
+#1387791559
+lS
+#1387791574
+ls Library
+#1387791582
+ls Library/Homebrew/
+#1387791599
+ls Library/Homebrew/cmd
+#1387791633
+ls Library/Homebrew/cmd/--env.rb 
+#1387791653
+rmate Library/Homebrew/cmd/--env.rb 
+#1387791732
+rmate Library/Homebrew/cmd/doctor.rb 
+#1387792358
+brew doctor
+#1387792421
+autogen
+#1387792530
+export EDITOR=rmate
+#1387792541
+bE libtool
+#1387792637
+./configure --prefix=/home7/tvctopin/local/Cellar/libtool/2.4.2 --infodir=/home7/tvctopin/local/Cellar/libtool/2.4.2/share/info --mandir=/home7/tvctopin/local/Cellar/libtool/2.4.2/share/man --cache-file=config.cache --config-cache --enable-dependency-tracking  --enable-ltdl-install --with-pic --with-gnu-ld --with-sysroot=/home7/tvctopin/local/include CC="gcc" CXX="g++" CFLAGS="-Os -w -pipe -march=core2 -msse4" CPPFLAGS="-isystem/home7/tvctopin/include" LDFLAGS="-L/home7/tvctopin/lib -Wl,-headerpad_max_install_names" PKG_CONFIG_PATH=/home7/tvctopin/local/lib/pkgconfig
+#1387792651
+bI libtool ---HEAD i
+#1387792657
+bI libtool ---HEAD -i
+#1387793016
+bR  pkgconfig
+#1387793022
+brew list
+#1387793029
+bR help2man
+#1387793032
+bC
+#1387793069
+..
+#1387793098
+ls bin
+#1387793105
+ls betc
+#1387793108
+lsbetc
+#1387793113
+ls etc
+#1387793122
+ls Cellar
+#1387793125
+ls opt
+#1387793129
+ls tmp
+#1387793137
+lS
+#1387793166
+rM bin Cellar opt  sources
+#1387793168
+lS
+#1387793173
+rM tmp
+#1387793181
+lB
+#1387793274
+mv ~/public_html/dev/sources/Linuxbrew/ /home7/tvctopin/local/
+#1387793286
+ls ~/public_html/dev/sources/Linuxbrew
+#1387793293
+ls ~/public_html/dev/sources/
+#1387793302
+ls ~/local
+#1387793329
+mv Linuxbrew/* .
+#1387793336
+lS Linuxbrew/
+#1387793354
+mv Linuxbrew/.git .
+#1387793356
+lS Linuxbrew/
+#1387793361
+mv Linuxbrew/.gitignore  .
+#1387793363
+lS Linuxbrew/
+#1387793370
+rM Linuxbrew
+#1387793372
+lS
+#1387793379
+wH brew
+#1387793444
+chmod a-x -R *
+#1387793448
+lS
+#1387793459
+lS bin/brew
+#1387793468
+lS bin
+#1387793479
+chnod 777 bin
+#1387793483
+chnom 777 bin
+#1387793493
+chmod -R  777 bin
+#1387793501
+chmod -R  700 bin
+#1387793533
+lS etc/config.site
+#1387793544
+chmod 700 etc
+#1387793546
+lS etc/config.site
+#1387793571
+chmod a-x etc/config.site
+#1387793573
+lS etc/config.site
+#1387793586
+chmod ao-x etc/config.site
+#1387793588
+lS etc/config.site
+#1387793600
+chmod aou-x etc/config.site
+#1387793601
+lS etc/config.site
+#1387793619
+chmod 64 etc/config.site
+#1387793622
+lS etc/config.site
+#1387793633
+chmod 644 etc
+#1387793634
+lS etc/config.site
+#1387793642
+lS etc
+#1387793648
+lS
+#1387793662
+chmod 644 -R etc
+#1387793667
+chmod 644 -fR etc
+#1387793670
+lS
+#1387793678
+lS etc/config.site
+#1387793684
+lS etc
+#1387793688
+cd etc
+#1387793741
+chmod aou-x etc/config.site
+#1387809497
+lS /home7/tvctopin/local/bin/brew
+#1387809508
+cd /home7/tvctopin/local/
+#1387809516
+chown -R $USER:$USER /home7/tvctopin/local
+#1387809537
+chmod 644 -fR etc
+#1387809545
+chown -R $USER:$USER /home7/tvctopin/local
+#1387809555
+chmod 644 -fR /home7/tvctopin/local/Library/Formula
+#1387809559
+lS
+#1387809589
+cd Library/
+#1387809613
+chmod 700 -fR /home7/tvctopin/local/Library/
+#1387809615
+lS
+#1387809623
+cd Library/
+#1387809624
+lS
+#1387809642
+chown -R $USER:$USER /home7/tvctopin/local
+#1387809669
+chmod 700 -fR /home7/tvctopin/local/share
+#1387809673
+chown -R $USER:$USER /home7/tvctopin/local
+#1387809687
+chmod 700 -fR /home7/tvctopin/local/etc
+#1387809690
+chown -R $USER:$USER /home7/tvctopin/local
+#1387809697
+lS
+#1387809705
+..
+#1387809706
+lS
+#1387809728
+chmod 700 -fR CONTRIBUTING.md
+#1387809732
+lS
+#1387809746
+chmod 644 -fR CONTRIBUTING.md
+#1387809749
+lS
+#1387809759
+chmod 744 -fR CONTRIBUTING.md
+#1387809761
+lS
+#1387809783
+chmod 722 -fR CONTRIBUTING.md
+#1387809785
+lS
+#1387809799
+chmod 777 CONTRIBUTING.md
+#1387809801
+lS
+#1387809820
+chmod 688 CONTRIBUTING.md
+#1387809833
+chmod --help
+#1387809853
+info coreutils 'chmod invocation'
+#1387810038
+lS
+#1387810068
+chmod au-x CONTRIBUTING.md
+#1387810073
+
+#1387810102
+chmod a-r CONTRIBUTING.md
+#1387810107
+lS
+#1387810117
+chmod a+r CONTRIBUTING.md
+#1387810119
+lS
+#1387810126
+chmod u+r CONTRIBUTING.md
+#1387810128
+lS
+#1387810138
+chmod u-r CONTRIBUTING.md
+#1387810140
+lS
+#1387810149
+chmod u+r CONTRIBUTING.md
+#1387810158
+chmod o-r CONTRIBUTING.md
+#1387810160
+lS
+#1387810196
+chmod 644 .gitignore
+#1387810198
+lS
+#1387810214
+chown -R $USER:$USER /home7/tvctopin/local
+#1387810219
+chown -R $USER:$USER /home7/tvctopin
+#1387810377
+chmod 644 /home7/tvctopin/public_html/ic
+#1387810385
+chmod 644 -Rf /home7/tvctopin/public_html/ic
+#1387810394
+lS git clone http://git.savannah.gnu.org/r/m4.git
+#1387810403
+lS /home7/tvctopin/public_html/ic
+#1387810417
+chmod 666 -Rf /home7/tvctopin/public_html/ic
+#1387810420
+lS /home7/tvctopin/public_html/ic
+#1387810430
+chmod 688 -Rf /home7/tvctopin/public_html/ic
+#1387810443
+chmod 700-Rf /home7/tvctopin/public_html/ic
+#1387810447
+chmod 700 -Rf /home7/tvctopin/public_html/ic
+#1387810450
+lS
+#1387810455
+lS /home7/tvctopin/public_html/ic
+#1387810487
+chmod u-x /home7/tvctopin/public_html/ic
+#1387810489
+lS /home7/tvctopin/public_html/ic
+#1387810497
+chmod 700 -Rf /home7/tvctopin/public_html/ic
+#1387810500
+lS /home7/tvctopin/public_html/ic
+#1387810514
+chmod a-x /home7/tvctopin/public_html/ic
+#1387810520
+lS /home7/tvctopin/public_html/ic
+#1387810538
+chmod 700 -Rf /home7/tvctopin/public_html/ic
+#1387810554
+chmod a-x -Rf /home7/tvctopin/public_html/ic
+#1387810558
+lS /home7/tvctopin/public_html/ic
+#1387810563
+chmod 700 -Rf /home7/tvctopin/public_html/ic
+#1387810565
+cd /home7/tvctopin/public_html/ic
+#1387810569
+lS
+#1387810590
+chmod o-x -v *
+#1387810597
+lS
+#1387810607
+chmod u-x -v *
+#1387810635
+chmod u-r -v *
+#1387810640
+lS
+#1387810650
+chmod u+r -v *
+#1387810655
+lS
+#1387810662
+chmod a+r -v *
+#1387810682
+chmod o+w -v *
+#1387810692
+chmod o-w -v *
+#1387810702
+chmod a-w -v *
+#1387810720
+chmod u+w -v *
+#1387810727
+chmod o+w -v *
+#1387810737
+chmod a+w -v *
+#1387810766
+chmod u-w -v *
+#1387810776
+chmod u+w -v *
+#1387810785
+chmod a-w -v *
+#1387810792
+chmod a+w -v *
+#1387810799
+chmod o-w -v *
+#1387810805
+lS
+#1387810811
+chown
+#1387810815
+lS 
+#1387810820
+chown -R $USER:$USER /home7/tvctopin
+#1387810859
+lS
+#1387810968
+chmod 664 -Rf /home7/tvctopin/public_html/ic/small
+#1387810974
+chown -R $USER:$USER /home7/tvctopin
+#1387810997
+chmod 664 -Rf /home7/tvctopin/public_html/ic
+#1387811003
+chmod 664 -Rf /home7/tvctopin/public_html/ic/small
+#1387811012
+chmod 0664 -Rf /home7/tvctopin/public_html/ic/small
+#1387811017
+lS
+#1387811022
+cd
+#1387811026
+lS
+#1387811043
+cd /home7/tvctopin/public_html
+#1387811045
+lS
+#1387811080
+chmod 664 -R -v /home7/tvctopin/public_html/ic
+#1387811094
+cd ic
+#1387811108
+chmod 666 -R -v /home7/tvctopin/public_html/ic
+#1387811120
+chmod 700 -R -v /home7/tvctopin/public_html/ic
+#1387811133
+cd ic
+#1387811135
+lS
+#1387811154
+chmod a-x -v *
+#1387811175
+chmod 777 *
+#1387811177
+lS
+#1387811186
+chmod a-x -v *
+#1387811206
+chmod 664 -v *
+#1387811212
+chmod 777 *
+#1387811215
+chown -R $USER:$USER /home7/tvctopin
+#1387811246
+chmod 700 -R /home7/tvctopin/BackupNow/BackupNow_bk
+#1387811262
+chmod 777 -R /home7/tvctopin/BackupNow/BackupNow_bk
+#1387811275
+cd
+#1387811286
+cd local
+#1387811288
+lS
+#1387811299
+rm gmon.out
+#1387811301
+lS
+#1387811314
+chmod 777 CONTRIBUTING.md
+#1387811320
+chmod 664 CONTRIBUTING.md
+#1387811322
+lS
+#1387811350
+chmod 644 .gitignore
+#1387811351
+lS
+#1387811374
+chmod a-r .gitignore
+#1387811377
+lS
+#1387811417
+chmod a+w u+r .gitignore
+#1387811424
+chmod a+w .gitignore
+#1387811426
+lS
+#1387811438
+chmod u+r .gitignore
+#1387811440
+lS
+#1387811449
+chmod o+r .gitignore
+#1387811452
+lS
+#1387811473
+chmod a+r .gitignore
+#1387811476
+lS
+#1387811495
+chmod o-r .gitignore
+#1387811496
+lS
+#1387811526
+chmod o-r -v .gitignore
+#1387811566
+lS share
+#1387811574
+lS Library
+#1387811586
+..
+#1387811592
+mkdir pp
+#1387811593
+lS
+#1387811654
+chmod a+x -v pp
+#1387811692
+chmod 0755 -Rf tmp
+#1387811698
+chmod 0755 -Rfv tmp
+#1387811722
+cd local
+#1387811725
+lS
+#1387811744
+chmod 0755 -Rfv share
+#1387811748
+lS
+#1387811759
+chmod 0755 -Rfv Library
+#1387811821
+lS
+#1387811839
+chmod 0755 -Rfv Cellar
+#1387811845
+chmod 0755 -Rfv etc
+#1387811860
+lS etc
+#1387811918
+lS ../Library
+#1387811940
+lS
+#1387812009
+mv ../Library/Java ./Library/Java
+#1387812019
+lS Library
+#1387812031
+lS Formula
+#1387812047
+lS Library/Formula
+#1387812068
+cd Library/
+#1387812071
+lS
+#1387812079
+lS Aliases/
+#1387812104
+chmod 755 -Rfv Aliases
+#1387812118
+lS Aliases/
+#1387812149
+cd Aliases/
+#1387812166
+chmod 755 -vf *
+#1387812179
+chmod 722 -vf *
+#1387812187
+lS
+#1387812197
+chmod 666 -vf *
+#1387812203
+chmod 664 -vf *
+#1387812206
+lS
+#1387812231
+..
+#1387812233
+lS
+#1387812250
+chmod 664 -vf Aliases
+#1387812260
+lS
+#1387812285
+chmod 664 -vf Formula
+#1387812291
+lS Formula
+#1387812310
+chmod 666 -vf Formula
+#1387812314
+lS Formula
+#1387812330
+chmod 700 -vf Formula
+#1387812334
+cd Formula
+#1387812336
+lS
+#1387812357
+chmod 666 -vf *
+#1387812378
+chmod 664 -vf *
+#1387812384
+lS
+#1387812398
+..
+#1387812400
+lS
+#1387812413
+chown -R $USER:$USER /home7/tvctopin
+#1387812484
+chmod 777 /home7/tvctopin/local/Library/Aliases
+#1387812500
+cd  /home7/tvctopin/local/Library/Aliases
+#1387812523
+chmod 700 -vf *
+#1387812539
+chmod 666 -vf *
+#1387812545
+chmod 664 -vf *
+#1387812554
+chown -R $USER:$USER /home7/tvctopin
+#1387812566
+..
+#1387812567
+lS
+#1387812617
+chmod u-x -vf Aliases
+#1387812621
+lS
+#1387812637
+chmod u+x -vf Aliases
+#1387812650
+chmod o-x -vf Aliases
+#1387812657
+lS
+#1387812679
+chmod a-x -vf Aliases
+#1387812723
+chmod o+x -vf Aliases
+#1387812730
+chmod o-x -vf Aliases
+#1387812743
+chmod u+x -vf Aliases
+#1387812788
+chmod o-r -vf Aliases
+#1387812803
+lS Aliases
+#1387812817
+cd Aliases
+#1387812833
+chmod 762 -vf *
+#1387812838
+lS
+#1387812866
+chmod a-x  -vf *
+#1387812879
+lS
+#1387812885
+..
+#1387812887
+lS
+#1387812910
+chmod 622 -vf Aliases
+#1387812917
+lS Aliases
+#1387812927
+chmod 700 Aliases
+#1387812930
+lS Aliases
+#1387812955
+chmod a-x -fv  Aliases
+#1387812964
+lS Aliases
+#1387812972
+chmod 700 Aliases
+#1387812977
+cd Aliases
+#1387812990
+chmod a-x -fv  *
+#1387812998
+lS
+#1387813011
+..
+#1387813013
+lS
+#1387813038
+chown -R $USER:$USER /home7/tvctopin
+#1387813165
+brew list
+#1387813170
+bC
+#1387813199
+rmate ~/.export
+#1387813206
+rmate ~/.exports
+#1387813259
+rmate ~/.bashrc
+#1387813457
+lS
+#1387813463
+lS ..
+#1387813480
+lS ../..
+#1387813514
+lS ../../tmp
+#1387813563
+cd
+#1387813596
+rM .linuxbrew_bk
+#1387813604
+lS
+#1387813615
+lS  Library
+#1387813638
+rM pp
+#1387813941
+echo $USR
+#1387814559
+echo "$HOME/Library/Homebrew_Caches
+#1387814570
+echo $HOME/Library/Homebrew_Caches
+#1387814579
+mkdir -p /home7/tvctopin/Library/Homebrew_Caches
+#1387814683
+bU && bC
+#1387814789
+export
+#1387814942
+brew doctor
+#1387815025
+rmate ~/.bashrc
+#1387815078
+brew doctor
+#1387815115
+rmate ~/.bashrc
+#1387815320
+brew doctor
+#1387815354
+rmate ~/.bashrc
+#1387816002
+brew doctor
+#1387816053
+lS etc/config.site 
+#1387816077
+lS local/etc
+#1387816085
+lS etc
+#1387816100
+rmae /home7/tvctopin/etc/config.site
+#1387816106
+rmate /home7/tvctopin/etc/config.site
+#1387816118
+lS /home7/tvctopin/etc/config.site
+#1387816131
+chmod 666 /home7/tvctopin/etc/config.site
+#1387816134
+lS /home7/tvctopin/etc/config.site
+#1387816143
+rmate /home7/tvctopin/etc/config.site
+#1387816359
+lS share/man/man1/brew.1 
+#1387816406
+. .bashrc
+#1387816409
+cd
+#1387816411
+. .bashrc
+#1387816416
+export
+#1387816485
+lS /ramdisk/sbin
+#1387816496
+ls /ramdisk/bin
+#1387816545
+bFF pkg-config
+#1387816563
+export EDITOR=rmate
+#1387816568
+bE pkg-config
+#1387816685
+brew --env
+#1387816723
+bI pkg-config
+#1387816764
+rmate
+#1387816769
+rmate /home7/tvctopin/local/etc/config.site
+#1387816828
+bI pkg-config
+#1387816852
+rmate /home7/tvctopin/local/etc/config.site
+#1387816877
+cp /home7/tvctopin/local/etc/config.site /home7/tvctopin/local/etc/config.site_bk
+#1387816880
+rmate /home7/tvctopin/local/etc/config.site
+#1387816907
+bI pkg-config
+#1387817811
+bF m4
+#1387817845
+git clone git://git.savannah.gnu.org/m4.git
+#1387819933
+cat README 
+#1387820218
+ls examples/
+#1387820231
+ls src/
+#1387820242
+ls lib
+#1387820254
+ls build-aux
+#1387820342
+cat README
+#1387820469
+./configure --help
+#1387820835
+./configure --prefix="/home7/tvctopin/local/Cellar/libsigsegv/2.10 \
+--enable-dependency-tracking \
+--enable-shared \
+--enable-static \
+--enable-fast-install \
+--enable-relocatable \
+--with-pic \
+--with-gnu-ld \
+--with-sysroot=/home7/tvctopin/local/include \
+CC="gcc" \
+CXX="g++" \
+CFLAGS="-Os -w -pipe -march=core2 -msse4" \
+CPPFLAGS="-I/home7/tvctopin/local/include" \
+LDFLAGS="-L/home7/tvctopin/local/lib -Wl,-headerpad_max_install_names"
+#1387820864
+./configure --prefix="/home7/tvctopin/local/Cellar/libsigsegv/2.10" --enable-dependency-tracking --enable-shared --enable-static --enable-fast-install --enable-relocatable --with-pic --with-gnu-ld --with-sysroot=/home7/tvctopin/local/include CC="gcc" CXX="g++" CFLAGS="-Os -w -pipe -march=core2 -msse4" CPPFLAGS="-I/home7/tvctopin/local/include" \
+#1387820928
+./configure --prefix=/home7/tvctopin/local/Cellar/libsigsegv/2.10 --enable-dependency-tracking --enable-shared --enable-static --enable-fast-install --enable-relocatable --with-pic --with-gnu-ld --with-sysroot=/home7/tvctopin/local/include CC=gcc CXX=g++ CFLAGS="-Os -w -pipe -march=core2 -msse4" CPPFLAGS="-I/home7/tvctopin/local/include" \
+#1387821036
+./configure --prefix=/home7/tvctopin/local/Cellar/libsigsegv/2.10 --enable-dependency-tracking --enable-shared --enable-static --enable-fast-install --enable-relocatable --with-pic --with-gnu-ld --with-sysroot=/home7/tvctopin/local/include CC=gcc  CXX=g++  CFLAGS="-Os -w -pipe -march=core2 -msse4"  CPPFLAGS="-I/home7/tvctopin/local/include" LDFLAGS="-L/home7/tvctopin/local/lib -Wl,-headerpad_max_install_names"
+#1387821086
+make
+#1387821101
+make check
+#1387821121
+make install
+#1387821140
+make installcheck
+#1387821259
+./bootstrap
+#1387821336
+./configure --help
+#1387821410
+./configure --prefix=/home7/tvctopin/local/Cellar/help2man/1.43.3 --enable-dependency-tracking --enable-shared --enable-nls --with-sysroot=/home7/tvctopin/local/include CC=gcc  CXX=g++  CFLAGS="-Os -w -pipe -march=core2 -msse4"  CPPFLAGS="-I/home7/tvctopin/local/include" LDFLAGS="-L/home7/tvctopin/local/lib -Wl,-headerpad_max_install_names"
+#1387821569
+make clean
+#1387821571
+./configure --prefix=/home7/tvctopin/local/Cellar/help2man/1.43.3 --enable-nls  CC=gcc  CXX=g++  CFLAGS="-Os -w -pipe -march=core2 -msse4"  CPPFLAGS="-isystem/home7/tvctopin/local/include" LDFLAGS="-L/home7/tvctopin/local/lib -Wl,-headerpad_max_install_names"
+#1387821593
+perl ./configure --prefix=/home7/tvctopin/local/Cellar/help2man/1.43.3 --enable-nls  CC=gcc  CXX=g++  CFLAGS="-Os -w -pipe -march=core2 -msse4"  CPPFLAGS="-isystem/home7/tvctopin/local/include" LDFLAGS="-L/home7/tvctopin/local/lib -Wl,-headerpad_max_install_names"
+#1387821736
+lS po
+#1387821742
+lS debian/
+#1387821750
+lS debian/source/
+#1387821800
+cat README
+#1387821836
+cat INSTALL
+#1387821965
+lsbetc
+#1387821993
+perl ./configure --prefix=/home7/tvctopin/local/Cellar/help2man/1.43.3 --enable-nls  ./configure CC=c99 CFLAGS=-g LIBS=-lposix
+#1387822017
+perl ./configure --prefix=/home7/tvctopin/local/Cellar/help2man/1.43.3 --enable-nls  ./configure CC=gcc CFLAGS=-g LIBS=-lposix
+#1387822100
+perl ./configure --prefix=/home7/tvctopin/local/Cellar/help2man/1.43.3 --enable-nls  ./configure CC=gcc CFLAGS=-g LIBS=-lposix --build
+#1387822106
+brew --env
+#1387822111
+gcc -v
+#1387822123
+./configure --hversion
+#1387822131
+./configure --version
+#1387822154
+perl ./configure --prefix=/home7/tvctopin/local/Cellar/help2man/1.43.3 --enable-nls  ./configure CC=gcc CFLAGS=-g LIBS=-lposix --build=x86_64-redhat-linux
+#1387822181
+./configure --prefix=/home7/tvctopin/local/Cellar/help2man/1.43.3 --enable-nls  CC=gcc  CXX=g++  CFLAGS="-Os -w -pipe -march=core2 -msse4"  CPPFLAGS="-isystem/home7/tvctopin/local/include" LDFLAGS="-L/home7/tvctopin/local/lib -Wl,-headerpad_max_install_names" --build=x86_64-redhat-linux
+#1387822237
+cat config.log
+#1387816968
+export
+#1387816972
+export EDITOR=rmate
+#1387816976
+bE m4
+#1387817035
+bI m4 --HEAD
+#1387817045
+bF git
+#1387817055
+bFF git
+#1387817096
+bE m4
+#1387817112
+bI m4 --HEAD
+#1387817144
+bE m4
+#1387817156
+bI m4 --HEAD
+#1387817303
+cd ../public_html/dev/sources/
+#1387817316
+lS homebrew_repo 
+#1387817344
+git clone http://git.savannah.gnu.org/r/m4.git /home7/tvctopin/Library/Homebrew_Caches/m4--git
+#1387817355
+cd /home7/tvctopin/Library/Homebrew_Caches/m4--git
+#1387817361
+git checkup
+#1387817367
+git checkout
+#1387817372
+git pull
+#1387817384
+git checkout -f
+#1387817406
+git submodule update --init
+#1387817418
+ls build-aux/
+#1387817436
+ls build-aux/gnulib/
+#1387817466
+..
+#1387817473
+rM m4--git
+#1387817491
+git clone git clone git://git.sv.gnu.org/m4 m4--git
+#1387817604
+git clone git://git.savannah.gnu.org/m4.git m4--git
+#1387817712
+git clone https://git.savannah.gnu.org/m4.git m4--git
+#1387817731
+git clone https://git.savannah.gnu.org/r/m4.git m4--git
+#1387817746
+export
+#1387817913
+git clone sennychu@git.sv.gnu.org:/srv/git/m4.git m4--git
+#1387817957
+mv /home7/tvctopin/.ssh/config /home7/tvctopin/.ssh/config_bk
+#1387817961
+git clone sennychu@git.sv.gnu.org:/srv/git/m4.git m4--git
+#1387817974
+ssh-add -l
+#1387818041
+cat ~/.ssh/id_rsa.pub 
+#1387818139
+ssh-keygen -t rsa -b 1024 -N "" -C "sennychu@tvctop.info"
+#1387818197
+ssh-add -l
+#1387818201
+ssh-add 
+#1387818213
+ssh-add /home7/tvctopin/.ssh/sn_rsa
+#1387818218
+ssh-add -l
+#1387818286
+cat /home7/tvctopin/.ssh/sn_rsa.pub 
+#1387818338
+git clone sennychu@git.sv.gnu.org:/srv/git/m4.git m4--git
+#1387818393
+ssh -Tv 
+#1387818409
+ssh -Tv git.savannah.gnu.org -i /home7/tvctopin/.ssh/sn_rsa
+#1387818416
+ssh -Tv git.savannah.gnu.org -i /home7/tvctopin/.ssh/sn_rsa.pub 
+#1387818428
+ssh -Tv git.savannah.gnu.org 
+#1387818522
+git clone sennychu@git.sv.gnu.org:/srv/git/m4.git m4--git
+#1387818545
+ssh -Tv sennychu@git.savannah.gnu.org 
+#1387818572
+ssh -Tv sennychu@git.sv.gnu.org 
+#1387818686
+wget http://ftp.gnu.org/gnu/gnuzilla/24/icecat-24.0-64bit.tar.gz
+#1387818704
+uG icecat-24.0-64bit.tar.gz
+#1387818714
+lS
+#1387818721
+cd icecat-24.0
+#1387818933
+cvs -d:pserver:anonymous@cvs.sv.gnu.org:/sources/www co www/philosophy/free-sw.html 
+#1387819073
+git clone http://git.savannah.gnu.org/r/m4.git  m4--git
+#1387819094
+..
+#1387819100
+rM icecat-24.0
+#1387819113
+bE m4
+#1387819130
+export EDITOR=nano
+#1387819133
+bE m4
+#1387819159
+bI m4 --HEAD
+#1387819196
+cd m4--git/
+#1387819203
+lS
+#1387819219
+cat .gitmodules
+#1387819301
+git clone http://git.sv.gnu.org/r/gnulib.git gnulib
+#1387819507
+nano .gitmodules
+#1387819550
+git checkout -f
+#1387819559
+git submodule update --init
+#1387819597
+lS build-aux/gnulib/
+#1387819624
+mv -r gnulib build-aux/
+#1387819627
+mv -f gnulib build-aux/
+#1387819634
+git submodule update --init
+#1387819696
+bI m4 --HEAD
+#1387819768
+wget http://git.savannah.gnu.org/cgit/m4.git/snapshot/m4-1.4.17.tar.gz
+#1387819773
+..
+#1387819777
+rM m4--git/
+#1387819780
+lS
+#1387819786
+wget http://git.savannah.gnu.org/cgit/m4.git/snapshot/m4-1.4.17.tar.gz
+#1387819791
+lS
+#1387819810
+sha1sum m4-1.4.17.tar.gz
+#1387819816
+bE m4
+#1387819911
+bI m4 -i
+#1387820285
+wget http://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.10.tar.gz
+#1387820312
+bF libsigsegv
+#1387820327
+bI libsigsegv -i
+#1387821243
+bI m4 -i
+#1387821285
+bI help2man
+#1387821301
+bI help2man -i --git
+#1387821311
+bR help2man
+#1387821313
+bI help2man -i --git
