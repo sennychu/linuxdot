@@ -22,7 +22,7 @@ DIR=$( cd "$( dirname "$0" )" && pwd )
 # link directory
 relink ~/.links                $DIR/links
 relink ~/.script               $DIR/script
-relink ~/.subversion           $DIR/subversion
+#relink ~/.subversion           $DIR/subversion
 # link file
 relink ~/.bash_profile         $DIR/bash_profile
 relink ~/.bash_prompt          $DIR/bash_prompt
@@ -33,7 +33,7 @@ relink ~/.aliases              $DIR/aliases
 relink ~/.profile              $DIR/profile
 relink ~/.exports              $DIR/exports
 relink ~/.functions            $DIR/functions
-relink ~/.gemrc                $DIR/gemrc
+#relink ~/.gemrc                $DIR/gemrc
 relink ~/.path                 $DIR/path
 relink ~/.nanorc               $DIR/nanorc
 relink ~/.rmate.rc             $DIR/rmate.rc

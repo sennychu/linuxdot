@@ -141,8 +141,8 @@ function set_prompt {
     homebrew_prompt="${BROWN}Homebrew:${COLOR_NONE} debugging ${HOMEBREW_DEBUG_INSTALL}\n"
 
   git_prompt="$(parse_git_branch)"
-  export PS1="${YELLOW}[`pwd`${RED} ${git_prompt}${COLOR_NONE}\n${homebrew_prompt}${RED}  Senny${YELLOW}:] ${CYAN}$ ${COLOR_NONE}"
-  setWindowTitle "${HOST/PWD/HOME/~}"
+  export PS1="${YELLOW}[ $PWD${RED}${git_prompt}${YELLOW}] ${CYAN}\n${homebrew_prompt}:$ ${COLOR_NONE}"
+  setWindowTitle "{ TVCTOP: $PWD }"
 }
 export PROMPT_COMMAND=set_prompt
 
